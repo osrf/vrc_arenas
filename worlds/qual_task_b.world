@@ -23,6 +23,23 @@
       <direction>-0.2 0.0 -1.0</direction>
     </light>
 
+    <!-- Point Light Source -->
+    <light type="point" name="light_bulb">
+      <cast_shadows>false</cast_shadows>
+
+      <pose>-3 0 4 0 0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.0 0.0 0.0 1</specular>
+
+      <attenuation>
+        <range>80</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+    </light>
+
+
     <!-- A ground plane -->
     <include>
       <uri>model://ground_plane</uri>
@@ -35,12 +52,12 @@
     </include>
 
     <include>
-      <uri>model://pegboard</uri>
-      <pose>0.17 -0.07 1.37 1.5707 1.5707 0</pose>
+      <uri>model://cordless_drill</uri>
+      <pose>0.51 0.2 0.922 0 0 0</pose>
     </include>
-
+    <!--
     <model name="cylinder">
-      <pose>-0.33 0.214 1.12 0 0 0</pose>
+      <pose>0.5 0.218 1.11 0 0 0</pose>
       <link name="link">
         <collision name="collision">
           <geometry>
@@ -61,135 +78,119 @@
         </visual>
       </link>
     </model>
+-->
 
-    <model name="box">
-      <pose>0.33 0.214 1.12 0 0 0</pose>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.2</size>
-            </box>
-          </geometry>
-        </collision>
-
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.05 0.05 0.2</size>
-            </box>
-          </geometry>
-        </visual>
-      </link>
-    </model>
-
-    <model name="ramp">
+    <model name="bin">
       <static>true</static>
-      <pose>0.11 -0.33 1.21 .28 0 0</pose>
+      <pose>1.0 0.0 0.8 0 0 0</pose>
       <link name="link">
-        <collision name="collision">
+
+        <collision name="pedistal_collision">
+          <pose>0 0 -0.4 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.1</radius>
+              <length>0.8</length>
+            </cylinder>
+          </geometry>
+        </collision>
+
+        <visual name="pedistal_visual">
+          <pose>0 0 -0.4 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.1</radius>
+              <length>0.8</length>
+            </cylinder>
+          </geometry>
+        </visual>
+
+        <collision name="bottom_collision">
           <geometry>
             <box>
-              <size>0.4 0.5 0.02</size>
+              <size>0.5 0.5 0.05</size>
             </box>
           </geometry>
-          <surface>
-            <friction>
-              <ode>
-                <mu>0</mu>
-                <mu2>0</mu2>
-              </ode>
-            </friction>
-          </surface>
         </collision>
-        <visual name="visual">
+
+        <visual name="bottom_visual">
           <geometry>
             <box>
-              <size>0.4 0.5 0.02</size>
+              <size>0.5 0.5 0.05</size>
             </box>
           </geometry>
         </visual>
 
-        <collision name="collision1">
-          <pose>0.2 0 0.05 0 0 0</pose>
+        <collision name="side1_collision">
+          <pose>0 0.275 0.075 0 0 0</pose>
           <geometry>
             <box>
-              <size>0.02 0.5 0.1</size>
+              <size>0.6 0.05 0.2</size>
             </box>
           </geometry>
-          <surface>
-            <friction>
-              <ode>
-                <mu>0</mu>
-                <mu2>0</mu2>
-              </ode>
-            </friction>
-          </surface>
         </collision>
-        <visual name="visual1">
-          <pose>0.2 0 0.05 0 0 0</pose>
+        <visual name="side1_visual">
+          <pose>0 0.275 0.075 0 0 0</pose>
           <geometry>
             <box>
-              <size>0.02 0.5 0.1</size>
+              <size>0.6 0.05 0.2</size>
             </box>
           </geometry>
         </visual>
 
-        <collision name="collision2">
-          <pose>-0.2 0 0.05 0 0 0</pose>
+        <collision name="side2_collision">
+          <pose>0 -0.275 0.075 0 0 0</pose>
           <geometry>
             <box>
-              <size>0.02 0.5 0.1</size>
+              <size>0.6 0.05 0.2</size>
             </box>
           </geometry>
-          <surface>
-            <friction>
-              <ode>
-                <mu>0</mu>
-                <mu2>0</mu2>
-              </ode>
-            </friction>
-          </surface>
         </collision>
-        <visual name="visual2">
-          <pose>-0.2 0 0.05 0 0 0</pose>
+        <visual name="side2_visual">
+          <pose>0 -0.275 0.075 0 0 0</pose>
           <geometry>
             <box>
-              <size>0.02 0.5 0.1</size>
+              <size>0.6 0.05 0.2</size>
             </box>
           </geometry>
         </visual>
 
-        <collision name="collision3">
-          <pose>0 -0.25 0.1 0 0 0</pose>
+         <collision name="side3_collision">
+          <pose>0.275 0 0.075 0 0 0</pose>
           <geometry>
             <box>
-              <size>0.4 0.02 0.2</size>
+              <size>0.05 0.5 0.2</size>
             </box>
           </geometry>
-          <surface>
-            <friction>
-              <ode>
-                <mu>0</mu>
-                <mu2>0</mu2>
-              </ode>
-            </friction>
-          </surface>
         </collision>
-        <visual name="visual3">
-          <pose>0 -0.25 0.1 0 0 0</pose>
+        <visual name="side3_visual">
+          <pose>0.275 0 0.075 0 0 0</pose>
           <geometry>
             <box>
-              <size>0.4 0.02 0.2</size>
+              <size>0.05 0.5 0.2</size>
             </box>
           </geometry>
         </visual>
 
-
-
+        <collision name="side4_collision">
+          <pose>-0.275 0 0.075 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.05 0.5 0.2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="side4_visual">
+          <pose>-0.275 0 0.075 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.05 0.5 0.2</size>
+            </box>
+          </geometry>
+        </visual>
+     
       </link>
     </model>
-
 
   </world>
 </sdf>
