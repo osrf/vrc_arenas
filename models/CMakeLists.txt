@@ -1,2 +1,5 @@
 add_subdirectory(pegboard)
-
+add_subdirectory(gate)
+add_subdirectory(starting_pen)
+add_subdirectory(orange_barrel)
+add_subdirectory(grass_plane)
