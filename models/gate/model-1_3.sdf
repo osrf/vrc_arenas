@@ -3,13 +3,13 @@
 
   <model name="gate">
     <static>true</static>
-    <pose>0 0 1.0 0 0 0</pose>
+    <pose>0 0 2.0 0 0 0</pose>
     <link name="link">
       <collision name="right_collision">
         <pose>0 -1.0 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 0.2 2.0</size>
+            <size>0.2 0.2 4.0</size>
           </box>
         </geometry>
       </collision>
@@ -17,14 +17,15 @@
         <pose>0 -1.0 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 0.2 2.0</size>
+            <size>0.2 0.2 4.0</size>
           </box>
         </geometry>
         <material>
-          <ambient>1 0 0 0</ambient>
-          <diffuse>1 0 0 0</diffuse>
-          <emissive>.2 0 0 0</emissive>
-          <specular>.1 .1 .1 0</specular>
+          <script>
+            <uri>model://gate/materials/scripts/gate.material</uri>
+            <uri>model://gate/materials/textures</uri>
+            <name>vrc/red_gate</name>
+          </script>
         </material>
       </visual>
 
@@ -32,7 +33,7 @@
         <pose>0 1.0 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 0.2 2.0</size>
+            <size>0.2 0.2 4.0</size>
           </box>
         </geometry>
       </collision>
@@ -40,19 +41,20 @@
         <pose>0 1.0 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 0.2 2.0</size>
+            <size>0.2 0.2 4.0</size>
           </box>
         </geometry>
         <material>
-          <ambient>0 0 1 0</ambient>
-          <diffuse>0 0 1 0</diffuse>
-          <emissive>0 0 .2 0</emissive>
-          <specular>.1 .1 .1 0</specular>
+          <script>
+            <uri>model://gate/materials/scripts/gate.material</uri>
+            <uri>model://gate/materials/textures</uri>
+            <name>vrc/blue_gate</name>
+          </script>
         </material>
       </visual>
 
       <collision name="top_collision">
-        <pose>0 0 1.1 0 0 0</pose>
+        <pose>0 0 2.1 0 0 0</pose>
         <geometry>
           <box>
             <size>0.2 2.2 0.2</size>
@@ -60,17 +62,18 @@
         </geometry>
       </collision>
       <visual name="top_visual">
-        <pose>0 0 1.1 0 0 0</pose>
+        <pose>0 0 2.1 0 0 0</pose>
         <geometry>
           <box>
             <size>0.2 2.2 0.2</size>
           </box>
         </geometry>
         <material>
-          <ambient>1 0 0 0</ambient>
-          <diffuse>1 0 0 0</diffuse>
-          <emissive>.2 0 0 0</emissive>
-          <specular>.1 .1 .1 0</specular>
+          <script>
+            <uri>model://gate/materials/scripts/gate.material</uri>
+            <uri>model://gate/materials/textures</uri>
+            <name>vrc/green_gate</name>
+          </script>
         </material>
       </visual>
     </link>

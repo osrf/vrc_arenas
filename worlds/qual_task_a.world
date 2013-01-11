@@ -166,389 +166,47 @@
       </link>
     </model>
 
-    <!-- Start Gate -->
-    <model name="gate0">
-      <static>true</static>
+    <!-- Start: Gate 0 -->
+    <include>
+      <name>gate_0</name>
+      <uri>model://gate</uri>
       <pose>1 0 1.0 0 0 0</pose>
-      <link name="link">
-        <collision name="right_collision">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="right_visual">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
+    </include>
 
-        <collision name="left_collision">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="left_visual">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 1 0</ambient>
-            <diffuse>0 0 1 0</diffuse>
-            <emissive>0 0 .2 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-
-        <collision name="top_collision">
-          <pose>0 0 1.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="top_visual">
-          <pose>0 0 1.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-      </link>
-    </model>
-
-
-    <!-- First Gate -->
-    <model name="gate1">
-      <static>true</static>
+    <!-- Gate 1 -->
+    <include>
+      <name>gate_1</name>
+      <uri>model://gate</uri>
       <pose>4 0 1.0 0 0 0</pose>
-      <link name="link">
-        <collision name="right_collision">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="right_visual">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
+    </include>
 
-        <collision name="left_collision">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="left_visual">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 1 0</ambient>
-            <diffuse>0 0 1 0</diffuse>
-            <emissive>0 0 .2 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-
-        <collision name="top_collision">
-          <pose>0 0 1.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="top_visual">
-          <pose>0 0 1.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-      </link>
-    </model>
-
-    <!-- Second Gate -->
-    <model name="gate2">
-      <static>true</static>
+    <!-- Gate 2 -->
+    <include>
+      <name>gate_2</name>
+      <uri>model://gate</uri>
       <pose>8 0 1.0 0 0 0</pose>
-      <link name="link">
-        <collision name="right_collision">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="right_visual">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
+    </include>
 
-        <collision name="left_collision">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="left_visual">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 1 0</ambient>
-            <diffuse>0 0 1 0</diffuse>
-            <emissive>0 0 .2 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-
-        <collision name="top_collision">
-          <pose>0 0 1.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="top_visual">
-          <pose>0 0 1.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-
-      </link>
-    </model>
-
-    <!-- Third Gate -->
-    <model name="gate3">
-      <static>true</static>
+    <!-- Gate 3 -->
+    <include>
+      <name>gate_3</name>
+      <uri>model://gate</uri>
       <pose>12 0 1.0 0 0 0</pose>
-      <link name="link">
-        <collision name="right_collision">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="right_visual">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
+    </include>
 
-        <collision name="left_collision">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="left_visual">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 1 0</ambient>
-            <diffuse>0 0 1 0</diffuse>
-            <emissive>0 0 .2 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-
-        <collision name="top_collision">
-          <pose>0 0 1.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="top_visual">
-          <pose>0 0 1.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-
-      </link>
-    </model>
-
-    <!-- Fourth Gate -->
-    <model name="gate4">
-      <static>true</static>
+    <!-- Gate 4 -->
+    <include>
+      <name>gate_4</name>
+      <uri>model://gate</uri>
       <pose>16 -4.5 1.5 0 0 -1.5707</pose>
-      <link name="link">
-        <collision name="right_collision">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 3.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="right_visual">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 3.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
+    </include>
 
-        <collision name="left_collision">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 3.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="left_visual">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 3.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 1 0</ambient>
-            <diffuse>0 0 1 0</diffuse>
-            <emissive>0 0 .2 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-
-        <collision name="top_collision">
-          <pose>0 0 1.6 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="top_visual">
-          <pose>0 0 1.6 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-
-      </link>
-    </model>
+    <!-- Gate 5 -->
+    <include>
+      <name>gate_5</name>
+      <uri>model://gate</uri>
+      <pose>10 -11 1.0 0 0 3.1415</pose>
+    </include>
 
     <!-- Gate 4 Block -->
     <model name="gate4_block">
@@ -569,83 +227,6 @@
             </box>
           </geometry>
         </visual>
-      </link>
-    </model>
-
-    <!-- Fifth Gate -->
-    <model name="gate5">
-      <static>true</static>
-      <pose>10 -11 1.0 0 0 0</pose>
-      <link name="link">
-        <collision name="right_collision">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="right_visual">
-          <pose>0 -1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-
-        <collision name="left_collision">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="left_visual">
-          <pose>0 1.0 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.2 2.0</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0 0 1 0</ambient>
-            <diffuse>0 0 1 0</diffuse>
-            <emissive>0 0 .2 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-
-        <collision name="top_collision">
-          <pose>0 0 1.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="top_visual">
-          <pose>0 0 1.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.2 0.2</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>1 0 0 0</ambient>
-            <diffuse>1 0 0 0</diffuse>
-            <emissive>.2 0 0 0</emissive>
-            <specular>.1 .1 .1 0</specular>
-          </material>
-        </visual>
-
       </link>
     </model>
 
@@ -1040,7 +621,7 @@
       </link>
     </model>
 
-    <model name="platform_5">
+    <model name="ramp_up">
       <static>true</static>
       <pose>15.8 -6.2 1.0 -0.2 0 0</pose>
       <link name="link">
@@ -1120,35 +701,6 @@
         </visual>
       </link>
     </model>
-
-<!--
-    <model name="wall_7">
-      <static>true</static>
-      <pose>15.3 -9.3 2.2 0 0 0</pose>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.1 4.0 2.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.1 4.0 2.0</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/drc_qual.material</uri>
-              <name>DRCQual/MetalPlate</name>
-            </script>
-          </material>
-        </visual>
-      </link>
-    </model>
--->
 
     <model name="tunnel_obstacle_1">
       <static>true</static>
