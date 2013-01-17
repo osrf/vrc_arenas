@@ -5,7 +5,7 @@ if(COMMAND CMAKE_POLICY)
   CMAKE_POLICY(SET CMP0004 NEW)
 endif(COMMAND CMAKE_POLICY)
 
-set (CMAKE_INSTALL_PREFIX /usr/share CACHE STRING "Install path prefix")
+set (CMAKE_INSTALL_PREFIX /usr CACHE STRING "Install path prefix")
 
 project (vrc_arenas)
 string (TOLOWER ${PROJECT_NAME} PROJECT_NAME_LOWER)
