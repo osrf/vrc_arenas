@@ -15,6 +15,25 @@ material DRCQual/MetalPlate
   }
 }
 
+material DRCQual/MetalPlatePlatform
+{
+  receive_shadows on
+
+    technique
+    {
+      pass
+      {
+        ambient 0.5 0.5 0.5 1.000000
+
+          texture_unit
+          {
+            texture metal_plate.jpg
+              scale 1.0 1.0
+          }
+      }
+    }
+}
+
 material DRCQual/MetalPlateRamp
 {
   receive_shadows on

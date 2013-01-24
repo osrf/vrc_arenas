@@ -1,6 +1,8 @@
 set (files 
-  qual_task_a.world
-  qual_task_b.world
+  qual_task_1.world
+  qual_task_2.world
+  qual_task_3.world
+  qual_task_4.world
   final_task_a.world
 )
 
