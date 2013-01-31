@@ -2,19 +2,22 @@
 <sdf version="1.3">
   <model name="starting_pen">
     <static>true</static>
-    <pose>-2.0 0 0.5 0 0 0</pose>
+    <pose>-2.0 0 2.0 0 0 0</pose>
+
     <link name="link">
       <collision name="back_collision">
+        <pose>-2 0 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 6 1.0</size>
+            <size>0.2 6 4.0</size>
           </box>
         </geometry>
       </collision>
       <visual name="back_visual">
+        <pose>-2 0 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 6 1.0</size>
+            <size>0.2 6 4.0</size>
           </box>
         </geometry>
         <material>
@@ -26,18 +29,18 @@
       </visual>
 
       <collision name="left_collision">
-        <pose>1.4 -3.1 0 0 0 0</pose>
+        <pose>0.4 -3.1 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>3 0.2 1.0</size>
+            <size>5 0.2 4.0</size>
           </box>
         </geometry>
       </collision>
       <visual name="left_visual_lower">
-        <pose>1.4 -3.1 0.0 0 0 0</pose>
+        <pose>0.4 -3.1 0.0 0 0 0</pose>
         <geometry>
           <box>
-            <size>3 0.2 1.0</size>
+            <size>5 0.2 4.0</size>
           </box>
         </geometry>
         <material>
@@ -49,18 +52,18 @@
       </visual>
 
       <collision name="right_collision">
-        <pose>1.4 3.1 0 0 0 0</pose>
+        <pose>0.4 3.1 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>3 0.2 1.0</size>
+            <size>5 0.2 4.0</size>
           </box>
         </geometry>
       </collision>
       <visual name="right_visual">
-        <pose>1.4 3.1 0 0 0 0</pose>
+        <pose>0.4 3.1 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>3 0.2 1.0</size>
+            <size>5 0.2 4.0</size>
           </box>
         </geometry>
         <material>
@@ -75,7 +78,7 @@
         <pose>2.9 2.1 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 2.0 1.0</size>
+            <size>0.2 2.0 4.0</size>
           </box>
         </geometry>
       </collision>
@@ -83,7 +86,7 @@
         <pose>2.9 2.1 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 2.0 1.0</size>
+            <size>0.2 2.0 4.0</size>
           </box>
         </geometry>
         <material>
@@ -98,7 +101,7 @@
         <pose>2.9 -2.1 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 2.0 1.0</size>
+            <size>0.2 2.0 4.0</size>
           </box>
         </geometry>
       </collision>
@@ -106,7 +109,7 @@
         <pose>2.9 -2.1 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 2.0 1.0</size>
+            <size>0.2 2.0 4.0</size>
           </box>
         </geometry>
         <material>
@@ -118,18 +121,35 @@
       </visual>
 
       <collision name="front_collision">
-        <pose>5.0 0 0 0 0 0</pose> 
+        <pose>6.0 -1 0 0 0 0</pose> 
         <geometry>
           <box>
-            <size>0.2 4 1.0</size>
+            <size>0.2 4 4.0</size>
           </box>
         </geometry>
       </collision>
       <visual name="front_visual">
-        <pose>5.0 0 0 0 0 0</pose> 
+        <pose>6.0 -1 0 0 0 3.1415</pose> 
+        <geometry>
+          <mesh>
+            <uri>model://arrow_wall/meshes/arrow_wall.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="entryway_collision">
+        <pose>4.5 1.0 0 0 0 0</pose> 
         <geometry>
           <box>
-            <size>0.2 4 1.0</size>
+            <size>3.0 .2 4.0</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="entryway_visual">
+        <pose>4.5 1.0 0 0 0 0</pose> 
+        <geometry>
+          <box>
+            <size>3.0 .2 4.0</size>
           </box>
         </geometry>
         <material>
@@ -139,6 +159,7 @@
           </script>
         </material>
       </visual>
+
     </link>
   </model>
 </sdf>

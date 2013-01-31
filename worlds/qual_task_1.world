@@ -198,7 +198,7 @@
     <include>
       <name>gate_4</name>
       <uri>model://gate</uri>
-      <pose>22 8 3.0 0 0 3.1415</pose>
+      <pose>22 8 3.0 0 0 0</pose>
     </include>
 
     <!-- Platform 1 -->

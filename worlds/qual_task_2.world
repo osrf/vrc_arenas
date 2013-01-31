@@ -56,6 +56,29 @@
       <pose>0.51 0.2 0.922 0 0 3.1415</pose>
     </include>
 
+    <model name="seat">
+      <static>true</static>
+      <pose>0.5 0.72 0.3 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.45 0.5 0.6</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.2 0.2 0.6</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
     <model name="bin">
       <static>true</static>
       <pose>1.0 0.0 1.00 0 0 0</pose>

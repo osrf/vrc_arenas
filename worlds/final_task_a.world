@@ -35,6 +35,21 @@
       </attenuation>
     </light>
 
+    <!-- Point Light Source -->
+    <light type="point" name="light_bulb_2">
+      <cast_shadows>false</cast_shadows>
+      <pose>92.67 -3 5 0 0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.0 0.0 0.0 1</specular>
+
+      <attenuation>
+        <range>80</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+    </light>
+
     <include>
       <uri>model://grass_plane</uri>
     </include>
@@ -60,23 +75,84 @@
 
     <include>
       <uri>model://gate</uri>
-      <pose>210 105 1.0 0 0 0</pose>
+      <name>finish_gate</name>
+      <pose>198 103 2.0 0 0 1.5707</pose>
     </include>
 
     <include>
       <uri>model://starting_pen</uri>
-      <pose>-13 0 0.5 0 0 0</pose>
+      <pose>-13 0 2.0 0 0 0</pose>
     </include>
 
     <include>
       <uri>model://gate</uri>
       <name>start_gate</name>
-      <pose>-10 0 1.0 0 0 0</pose>
+      <pose>-10 0 2.0 0 0 0</pose>
     </include>
 
     <include>
-      <uri>model://low_poly_golf_cart</uri>
-      <pose>0 -2 0 0 0 0</pose>
+      <uri>model://vehicle_gate</uri>
+      <name>vehicle_gate_1</name>
+      <pose>5 0 2.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://vehicle_gate</uri>
+      <name>vehicle_gate_2</name>
+      <pose>190 100 2.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://polaris_ranger_ev</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://house_1</uri>
+      <pose>12 9.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://mailbox</uri>
+      <name>mailbox_0</name>
+      <pose>18 4 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://mailbox</uri>
+      <name>mailbox_1</name>
+      <pose>24.5 -4.45 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://house_2</uri>
+      <pose>30 -8 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://house_3</uri>
+      <pose>54 7 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://mailbox</uri>
+      <name>mailbox_2</name>
+      <pose>59 4.45 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://fast_food</uri>
+      <pose>95 7.0 1.59 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://dumpster</uri>
+      <pose>143 51.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gas_station</uri>
+      <pose>135 84.8 0 0 0 0</pose>
     </include>
 
     <road name="main_street">
