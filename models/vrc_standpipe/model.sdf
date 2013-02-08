@@ -1,9 +1,17 @@
 <?xml version='1.0'?>
 <sdf version='1.3'>
-  <model name='fire_hose'>
-    <static>true</static>
-    <link name='link'>
-      <collision name="collision">
+  <model name='standpipe'>
+    <link name="link">
+      <collision name="collision_1">
+        <geometry>
+          <cylinder>
+            <radius>0.10</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+      </collision>
+
+      <collision name="collision_2">
         <pose>0 0 0.15 0 0 0</pose>
         <geometry>
           <cylinder>
@@ -17,11 +25,12 @@
         <pose>0 0 0.15 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.7 0.7 0.7</scale>
-            <uri>model://vrc_firehose/meshes/vrc_firehose.dae</uri>
+            <uri>model://vrc_standpipe/meshes/vrc_standpipe.dae</uri>
           </mesh>
         </geometry>
       </visual>
+
     </link>
+
   </model>
 </sdf>
