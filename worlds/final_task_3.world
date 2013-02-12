@@ -79,18 +79,23 @@
 
     <include>
       <uri>model://vrc_standpipe</uri>
-      <pose>-1.95 -1.6 1.5 -1.5707 0 0</pose>
+      <pose>-1.95 -1.6 1.2 -1.5707 0 0</pose>
     </include>
 
-    <model name="spigot">
+    <include>
+      <uri>model://vrc_valve</uri>
+      <pose>-2.55 -1.38 1.2 -1.5707 0 0</pose>
+    </include>
+
+    <model name="valve_attachment">
       <static>true</static>
-      <pose>-1.95 -1.24 1.58 0 0 0</pose>
+      <pose>-2.55 -1.10 1.2 1.5707 0 0</pose>
       <link name="link">
         <collision name="collision_1">
           <geometry>
             <cylinder>
               <radius>0.01</radius>
-              <length>0.1</length>
+              <length>0.2</length>
             </cylinder>
           </geometry>
         </collision>
@@ -98,32 +103,8 @@
           <geometry>
             <cylinder>
               <radius>0.01</radius>
-              <length>0.1</length>
+              <length>0.2</length>
             </cylinder>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts</uri>
-              <name>Gazebo/Green</name>
-            </script>
-          </material>
-
-        </visual>
-
-        <collision name="collision_2">
-          <pose>0.08 0 0.1 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.02 0.02</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual_2">
-          <pose>0.08 0 0.05 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 0.02 0.02</size>
-            </box>
           </geometry>
           <material>
             <script>
@@ -134,6 +115,7 @@
         </visual>
       </link>
     </model>
+-->
 
     <model name="wall">
       <static>true</static>
