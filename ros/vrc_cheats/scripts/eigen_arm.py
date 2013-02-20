@@ -74,12 +74,66 @@ EIGEN_POSES = {
                           0.0,
                           0.0,
                           0.0,
--0.7668111815691914, 1.396255493523947, 1.9044557076508042, -1.1626445233703198, 0.023734655893724366, -0.22264687988712772]]
+-1.1131629398130087, 1.014214682846701, 2.399483597155127, -0.8657932807442492,
+-1.5584248154213558, -0.7173726339741888]],
+    'bin_drop':         [[0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0, 
+                          0.0],
+                         [0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+-1.9634999856444084, 0.9647409489999106, 1.855271024470099, -0.2226325416676369,
+-1.4594803865889947, -0.37105428608753677]]
 }
 
 # Axis to move name; activate button for each axis is axis number * 2
 AXIS_MAP = {
-    0: 'tabletop_reach_r'
+    0: 'tabletop_reach_r',
+    1: 'bin_drop'
 }
 
 # Scene button comes last
@@ -139,8 +193,8 @@ class EigenArm:
             self.joint_command.i_effort_max[i] = rospy.get_param('atlas_controller/gains/' + name[7::] + '/i_clamp')
             self.joint_command.i_effort_min[i] = -self.joint_command.i_effort_max[i]
 
-        self.joy_sub = rospy.Subscriber('joy', Joy, self.joy_cb)
         self.pub = rospy.Publisher('atlas/joint_commands', JointCommands)
+        self.joy_sub = rospy.Subscriber('joy', Joy, self.joy_cb)
 
     def usage(self):
         print USAGE
