@@ -1,0 +1,15 @@
+<package>
+  <description brief="eigenatlas">
+
+     eigenatlas
+
+  </description>
+  <author>Morgan Quigley</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/eigenatlas</url>
+  <depend package="osrf_msgs"/>
+  <depend package="rospy"/>
+</package>
+
+
