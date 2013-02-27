@@ -1,4 +1,4 @@
-function revolutePendulum
+function revolutePendulum(method)
 % Test bilateral constraints for a spatial pendulum with a 1-dof revolute
 % joint.  In the direction of rotation, everything is identical to the
 % planar pendulum used as a test in the code testPendulum.m  Results
@@ -6,7 +6,17 @@ function revolutePendulum
 
 % Written by Jeff Trinkle, 2012.
 
-method = 1; % 0 ==> Euler,  1 ==> Bender,  2 ==> Midpoint
+if ~exist('method', 'var')
+  method = 1; % 0 ==> Euler,  1 ==> Bender,  2 ==> Midpoint
+end
+
+if method == 0
+  disp('Using Euler method')
+elseif method == 1
+  disp('Using Bender method')
+elseif method == 2
+  disp('Using Midpoint method')
+end
 
 % Set up parameters for a slender rod of length L pinned at one end.  The
 % rod starts horizontal.
@@ -157,6 +167,7 @@ for t = dt : dt : T
     end
     
     wRb_lp1 = ep2rot(q_lp1(4:7));
+    M_wrld_lp1(1:3, 1:3) = M_body(1:3, 1:3);
     M_wrld_lp1(4:6, 4:6) = wRb_lp1 * I_body * wRb_lp1';
     KE_lp1 = nu_lp1' * M_wrld_lp1 * nu_lp1 / 2;
     PE_lp1 = mass * grav * (L/2 + q_lp1(2));

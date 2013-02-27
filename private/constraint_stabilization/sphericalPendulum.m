@@ -1,9 +1,20 @@
-function sphericalPendulum
+function sphericalPendulum(method)
 % Test bilateral constraints in a spherical pendulum problem
 
 % Written by Jeff Trinkle, 2012.
 
-method = 1; % 0 ==> Euler,  1 ==> Bender,  2 ==> Midpoint
+if ~exist('method', 'var')
+  method = 1; % 0 ==> Euler,  1 ==> Bender,  2 ==> Midpoint
+end
+
+if method == 0
+  disp('Using Euler method')
+elseif method == 1
+  disp('Using Bender method')
+elseif method == 2
+  disp('Using Midpoint method')
+end
+
 L = 2;
 grav = 9.81;
 mass = 1; 
@@ -226,4 +237,8 @@ wrench = [ 0;    -9.81*mass;    0;
 % kd = 2;
 % wrench = [ 0;    -9.81*mass;    0;
 %           -kd*nu(4:6) - omegaCrsIomega_w + 3*sin(5*t)*[1; 1; 1]];
+end
+
+function wx = cross_matrix(w)
+wx = [ 0 -w(3) w(2); w(3) 0 -w(1); -w(2) w(1) 0];
 end
