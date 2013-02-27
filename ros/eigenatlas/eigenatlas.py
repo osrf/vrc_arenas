@@ -58,11 +58,11 @@ def joy_cb(msg):
   print s
 
 if __name__ == '__main__':
-  if len(sys.argv) != 2:
+  if len(rospy.myargv()) != 2:
     print "usage: eigenatlas FILENAME.yaml"
     sys.exit(1)
-  vec = yaml.load(file(sys.argv[1], 'r'))
-  print "loaded %s" % sys.argv[1]
+  vec = yaml.load(file(rospy.myargv()[1], 'r'))
+  print "loaded %s" % rospy.myargv()[1]
   #print len(vec)
   print vec
   g_vec = [[0] * 28] * 10 # controller has 9 sliders, plus origin

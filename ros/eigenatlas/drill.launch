@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="eigenatlas" type="nanokontrol.py" name="nanokontrol" args="3"/>
+  <node pkg="eigenatlas" type="eigenatlas.py" name="eigenatlas" args="$(find eigenatlas)/drill.yaml"/>
+</launch>
