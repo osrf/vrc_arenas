@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.64.0 r51232</authoring_tool>
     </contributor>
-    <created>2013-01-23T13:52:24</created>
-    <modified>2013-01-23T13:52:24</modified>
+    <created>2013-02-15T14:03:18</created>
+    <modified>2013-02-15T14:03:18</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -16,7 +16,7 @@
     </image>
   </library_images>
   <library_effects>
-    <effect id="Material-material-effect">
+    <effect id="Material-material-material-effect">
       <profile_COMMON>
         <newparam sid="platform_1_png-surface">
           <surface type="2D">
@@ -40,7 +40,7 @@
               <texture texture="platform_1_png-sampler" texcoord="UVMap"/>
             </diffuse>
             <specular>
-              <color sid="specular">0.25 0.25 0.25 1</color>
+              <color sid="specular">0.125 0.125 0.125 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -60,8 +60,8 @@
     </effect>
   </library_effects>
   <library_materials>
-    <material id="Material-material-material" name="Material-material-material">
-      <instance_effect url="#Material-material-effect"/>
+    <material id="Material-material-material-material" name="Material-material-material-material">
+      <instance_effect url="#Material-material-material-effect"/>
     </material>
   </library_materials>
   <library_geometries>
@@ -99,7 +99,7 @@
         <vertices id="Cube_001-mesh-vertices">
           <input semantic="POSITION" source="#Cube_001-mesh-positions"/>
         </vertices>
-        <polylist material="Material-material-material" count="6">
+        <polylist material="Material-material-material-material" count="6">
           <input semantic="VERTEX" source="#Cube_001-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Cube_001-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Cube_001-mesh-map-0" offset="2" set="0"/>
@@ -117,11 +117,11 @@
         <rotate sid="rotationZ">0 0 1 0</rotate>
         <rotate sid="rotationY">0 1 0 0</rotate>
         <rotate sid="rotationX">1 0 0 0</rotate>
-        <scale sid="scale">1 1 1</scale>
+        <scale sid="scale">1 1.1 1</scale>
         <instance_geometry url="#Cube_001-mesh">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Material-material-material" target="#Material-material-material">
+              <instance_material symbol="Material-material-material-material" target="#Material-material-material-material">
                 <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
               </instance_material>
             </technique_common>

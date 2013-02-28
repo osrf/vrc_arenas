@@ -6,7 +6,7 @@
     <pose>0 0 2.0 0 0 0</pose>
     <link name="link">
       <collision name="right_collision">
-        <pose>0 -1.0 0 0 0 0</pose>
+        <pose>0 -2.5 0 0 0 0</pose>
         <geometry>
           <box>
             <size>0.2 0.2 4.0</size>
@@ -14,7 +14,7 @@
         </geometry>
       </collision>
       <visual name="right_visual">
-        <pose>0 -1.0 0 0 0 0</pose>
+        <pose>0 -2.5 0 0 0 0</pose>
         <geometry>
           <box>
             <size>0.2 0.2 4.0</size>
@@ -30,7 +30,7 @@
       </visual>
 
       <collision name="left_collision">
-        <pose>0 1.0 0 0 0 0</pose>
+        <pose>0 2.5 0 0 0 0</pose>
         <geometry>
           <box>
             <size>0.2 0.2 4.0</size>
@@ -38,7 +38,7 @@
         </geometry>
       </collision>
       <visual name="left_visual">
-        <pose>0 1.0 0 0 0 0</pose>
+        <pose>0 2.5 0 0 0 0</pose>
         <geometry>
           <box>
             <size>0.2 0.2 4.0</size>
@@ -57,7 +57,7 @@
         <pose>0 0 2.1 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 2.2 0.2</size>
+            <size>0.2 5.2 0.2</size>
           </box>
         </geometry>
       </collision>
@@ -65,7 +65,7 @@
         <pose>0 0 2.1 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.2 2.2 0.2</size>
+            <size>0.2 5.2 0.2</size>
           </box>
         </geometry>
         <material>

@@ -117,52 +117,6 @@
           </material>
         </visual>
 
-        <collision name="front_right_collision">
-          <pose>2.9 2.1 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.0 1.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="front_right_visual">
-          <pose>2.9 2.1 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.0 1.0</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/drc_qual.material</uri>
-              <name>DRCQual/WarningWall</name>
-            </script>
-          </material>
-        </visual>
-
-        <collision name="front_left_collision">
-          <pose>2.9 -2.1 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.0 1.0</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="front_left_visual">
-          <pose>2.9 -2.1 0 0 0 0</pose>
-          <geometry>
-            <box>
-              <size>0.2 2.0 1.0</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/drc_qual.material</uri>
-              <name>DRCQual/WarningWall</name>
-            </script>
-          </material>
-        </visual>
-
       </link>
     </model>
 
