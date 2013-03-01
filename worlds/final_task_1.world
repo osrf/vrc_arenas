@@ -117,6 +117,19 @@
     </include>
 
     <include>
+      <uri>model://gate_number_4</uri>
+      <name>gate_number_4_a</name>
+      <pose>195.85 103 3.75 0 0 1.5707</pose>
+    </include>
+
+    <include>
+      <uri>model://gate_number_4</uri>
+      <name>gate_number_4_b</name>
+      <pose>200.15 103 3.75 0 0 1.5707</pose>
+    </include>
+
+
+    <include>
       <uri>model://starting_pen</uri>
       <pose>-10 7.0 0.0 0 0 3.1415</pose>
     </include>
@@ -124,7 +137,19 @@
     <include>
       <uri>model://gate</uri>
       <name>start_gate</name>
-      <pose>-10 -2 2.0 0 0 1.5707</pose>
+      <pose>-10 -2 2.0 0 0 -1.5707</pose>
+    </include>
+
+    <include>
+      <uri>model://gate_number_1</uri>
+      <name>gate_number_1_a</name>
+      <pose>-7.85 -2 3.75 0 0 1.5707</pose>
+    </include>
+
+    <include>
+      <uri>model://gate_number_1</uri>
+      <name>gate_number_1_b</name>
+      <pose>-12.15 -2 3.75 0 0 1.5707</pose>
     </include>
 
     <include>
@@ -134,10 +159,36 @@
     </include>
 
     <include>
+      <uri>model://gate_number_2</uri>
+      <name>gate_number_2_a</name>
+      <pose>5 -3.65 3.75 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gate_number_2</uri>
+      <name>gate_number_2_b</name>
+      <pose>5 3.65 3.75 0 0 0</pose>
+    </include>
+
+
+    <include>
       <uri>model://vehicle_gate</uri>
       <name>vehicle_gate_2</name>
       <pose>190 100 2.0 0 0 0</pose>
     </include>
+
+    <include>
+      <uri>model://gate_number_3</uri>
+      <name>gate_number_3_a</name>
+      <pose>190 96.35 3.75 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://gate_number_3</uri>
+      <name>gate_number_3_b</name>
+      <pose>190 103.65 3.75 0 0 0</pose>
+    </include>
+
 
     <include>
       <uri>model://polaris_ranger_ev</uri>

@@ -7,8 +7,8 @@
         <geometry>
           <heightmap>
             <uri>model://vrc_heightmap/materials/textures/heightmap.png</uri>
-            <size>500 500 50</size>
-            <pos>0 0 0</pos>
+            <size>200 200 46.9</size>
+            <pos>0 0 -4.6</pos>
           </heightmap>
         </geometry>
       </collision>
@@ -32,16 +32,16 @@
               <size>80</size>
             </texture>
             <blend>
-              <min_height>.2</min_height>
-              <fade_dist>5</fade_dist>
+              <min_height>4.0</min_height>
+              <fade_dist>2</fade_dist>
             </blend>
             <blend>
-              <min_height>1</min_height>
-              <fade_dist>5</fade_dist>
+              <min_height>8</min_height>
+              <fade_dist>2</fade_dist>
             </blend>
             <uri>model://vrc_heightmap/materials/textures/heightmap.png</uri>
-            <size>500 500 50</size>
-            <pos>0 0 0</pos>
+            <size>200 200 46.9</size>
+            <pos>0 0 -4.6</pos>
           </heightmap>
         </geometry>
       </visual>

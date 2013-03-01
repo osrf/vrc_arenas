@@ -3,21 +3,11 @@
   <model name='fire_hose'>
     <static>true</static>
     <link name='link'>
-      <collision name="collision">
-        <pose>0 0 0.15 0 0 0</pose>
-        <geometry>
-          <cylinder>
-            <radius>0.08</radius>
-            <length>0.2</length>
-          </cylinder>
-        </geometry>
-      </collision>
-
       <visual name="visual">
         <pose>0 0 0.15 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.7 0.7 0.7</scale>
+            <scale>1.0 1.0 1.0</scale>
             <uri>model://vrc_firehose/meshes/vrc_firehose.dae</uri>
           </mesh>
         </geometry>

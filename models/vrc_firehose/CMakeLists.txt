@@ -1,5 +1,5 @@
 set (files 
-  manifest.xml
+  model.config
   model.sdf
 )
 
