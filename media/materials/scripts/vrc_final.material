@@ -109,3 +109,42 @@ material DRCQual/WarningWall
     }
   }
 }
+
+material VRC/LightBlue
+{
+	technique
+	{
+    pass ambient
+    {
+			ambient .584 .745 1
+      diffuse .584 .745 1
+      specular 0.1 0.1 0.1 1 1
+    }
+	}
+}
+
+material VRC/DarkGreen
+{
+	technique
+	{
+		pass ambient
+		{
+			ambient 0 .443 0
+      diffuse 0 .443 0
+      specular 0.1 0.1 0.1 1 1
+		}
+	}
+}
+
+material VRC/DarkRed
+{
+	technique
+	{
+    pass ambient
+    {
+			ambient .533 0 1
+      diffuse .533 0 1
+      specular 0.1 0.1 0.1 1 1
+    }
+	}
+}
