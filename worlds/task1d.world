@@ -381,10 +381,10 @@
    <road name="main_street">
       <width>7.34</width>
       <point>0 0 0.01</point>
-      <point>100 0 0.01</point>
-      <point>150 50 0.01</point>
-      <point>150 100 0.01</point>
-      <point>200 100 0.01</point>
+      <point>-50 10 0.01</point>
+      <point>-100 50 0.01</point>
+      <point>-100 100 0.01</point>
+      <point>0 130 0.01</point>
     </road>
 
     <include>
