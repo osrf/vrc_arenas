@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-import roslib; roslib.load_manifest('atlas_utils')
+import roslib; roslib.load_manifest('vrc_arenas')
 
 from atlas_msgs.msg import WalkDemoAction, \
                            WalkDemoActionGoal, \
@@ -39,7 +39,9 @@ class AtlasTeleop():
         rospy.loginfo("Waiting for atlas/bdi_control")
         self.client.wait_for_server()
 
-    # Script to build steps to walk across qual_world_1 bridge        
+    # Script to build steps to walk across qual_world_1 bridge
+    # Atlas needs to start at the edge of the main platform, just slightly to 
+    # the right-hand side of the yellow line.  
     def bridge_qual_1(self):
         s = []
         # Step to first block
@@ -99,6 +101,8 @@ class AtlasTeleop():
         Y = 0
         W = 0.2
         theta = 0
+        
+        # Build trajectory steps
         for i in range(len(s)):
             is_even = i%2
             is_odd = 1-is_even
