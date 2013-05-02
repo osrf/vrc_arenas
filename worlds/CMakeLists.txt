@@ -1,8 +1,8 @@
 set (files 
-task1a.world
-task1b.world
-task1c.world
-task1d.world
+vrc_final_task1.world
+vrc_final_task2.world
+vrc_final_task3.world
+vrc_final_task4.world
 task1e.world
 task2a.world
 task2b.world
