@@ -224,7 +224,7 @@
     <include>
       <uri>model://fast_food</uri>
       <static>true</static>
-      <pose>-89.84 1.59 0 0 0.640</pose>
+      <pose>-89.84 0 0 0 0.640</pose>
     </include>
 
     <include>
