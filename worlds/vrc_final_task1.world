@@ -118,7 +118,7 @@
     </include>
     <include>
       <uri>model://gate</uri>
-      <name>finish_gate</name>
+      <name>gate_3</name>
       <static>true</static>
       <pose>198 103 2.0 0 0 1.5707</pose>
     </include>
@@ -139,9 +139,10 @@
       <static>true</static>
       <pose>-11 8.0 0.0 0 0 3.1415</pose>
     </include>
+
     <include>
       <uri>model://gate</uri>
-      <name>start_gate</name>
+      <name>gate_0</name>
       <static>true</static>
       <pose>-11 -1 2.0 0 0 -1.5707</pose>
     </include>
@@ -157,9 +158,10 @@
       <static>true</static>
       <pose>-13.15 -1 3.75 0 0 1.5707</pose>
     </include>
+
     <include>
       <uri>model://vehicle_gate</uri>
-      <name>vehicle_gate_1</name>
+      <name>vehiclegate_1</name>
       <static>true</static>
       <pose>5 0 2.0 0 0 0</pose>
     </include>
@@ -175,9 +177,10 @@
       <static>true</static>
       <pose>5 3.65 3.75 0 0 0</pose>
     </include>
+
     <include>
       <uri>model://vehicle_gate</uri>
-      <name>vehicle_gate_2</name>
+      <name>vehiclegate_2</name>
       <static>true</static>
       <pose>190 100 2.0 0 0 0</pose>
     </include>
@@ -193,6 +196,7 @@
       <static>true</static>
       <pose>190 103.65 3.75 0 0 0</pose>
     </include>
+
     <include>
       <uri>model://drc_vehicle</uri>
       <pose>0 0 0 0 0 0</pose>
