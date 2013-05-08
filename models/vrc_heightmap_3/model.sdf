@@ -8,7 +8,7 @@
           <heightmap>
             <uri>model://vrc_heightmap_3/materials/textures/heightmap.png</uri>
             <size>500 500 118</size>
-            <pos>0 0 -30</pos>
+            <pos>0 0 -32</pos>
           </heightmap>
         </geometry>
       </collision>

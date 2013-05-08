@@ -68,7 +68,7 @@
     </include>
 
     <include>
-      <uri>model://ground_plane</uri>
+      <uri>model://vrc_grass_plane2</uri>
     </include>
 
     <include>
@@ -87,7 +87,7 @@
       <uri>model://gate_number_1</uri>
       <name>gate_number_1_a</name>
       <static>true</static>
-      <pose>11.847 -1.656 0 0 1.349</pose>
+      <pose>11.847 -1.656 3.75 0 0 1.349</pose>
     </include>
     <include>
       <uri>model://gate_number_1</uri>
@@ -97,7 +97,7 @@
     </include>
     <include>
       <uri>model://drc_vehicle</uri>
-      <pose>-0.627 0.284 0 0 0 -2.918</pose>
+      <pose>-1.79 1.21 0 0 0 2.888</pose>
     </include>
 
     <include>
@@ -221,10 +221,11 @@
       <static>true</static>
       <pose>-86.85 44.66 0 0 0 -0.541</pose>
     </include>
+
     <include>
       <uri>model://fast_food</uri>
       <static>true</static>
-      <pose>-89.84 0 0 0 0.640</pose>
+      <pose>-93.58 56.96 0 0 0 -1.5707</pose>
     </include>
 
     <include>
@@ -331,7 +332,7 @@
       <uri>model://speed_limit_sign</uri>
       <name>speed_sign_5</name>
       <static>true</static>
-      <pose>i-38.64 113.22 0 0 0 1.80</pose>
+      <pose>-38.64 113.22 0 0 0 1.80</pose>
     </include>
 
     <include>
@@ -366,6 +367,19 @@
       <static>true</static>
       <pose>-12.13 126.33 2.0 0 0 0.279</pose>
     </include>
+    <include>
+      <uri>model://gate_number_3</uri>
+      <name>gate_number_3_a</name>
+      <static>true</static>
+      <pose>-11.14 122.81 3.75 0 0 0.279</pose>
+    </include>
+    <include>
+      <uri>model://gate_number_3</uri>
+      <name>gate_number_3_b</name>
+      <static>true</static>
+      <pose>-13.08 129.80 3.75 0 0 0.279</pose>
+    </include>
+
 
     <include>
       <uri>model://gate</uri>
@@ -373,34 +387,19 @@
       <static>true</static>
       <pose>-4.287 132.542 2.0 0 0 1.8505</pose>
     </include>
-
----
-
     <include>
       <uri>model://gate_number_4</uri>
       <name>gate_number_4_a</name>
       <static>true</static>
-      <pose>195.85 103 3.75 0 0 1.5707</pose>
+      <pose>-2.22 133.05 3.75 0 0 1.8505</pose>
     </include>
     <include>
       <uri>model://gate_number_4</uri>
       <name>gate_number_4_b</name>
       <static>true</static>
-      <pose>200.15 103 3.75 0 0 1.5707</pose>
+      <pose>-6.34 131.93 3.75 0 0 1.8505</pose>
     </include>
 
-    <include>
-      <uri>model://gate_number_3</uri>
-      <name>gate_number_3_a</name>
-      <static>true</static>
-      <pose>190 96.35 3.75 0 0 0</pose>
-    </include>
-    <include>
-      <uri>model://gate_number_3</uri>
-      <name>gate_number_3_b</name>
-      <static>true</static>
-      <pose>190 103.65 3.75 0 0 0</pose>
-    </include>
 
     <road name="main_street">
       <width>7.34</width>
@@ -416,10 +415,10 @@
       <link name="link">
 
         <collision name="collision_1">
-          <pose>51 0 0 0 0 0</pose>
+          <pose>-25.5 5.1 0 0 0 -0.197</pose>
           <geometry>
             <box>
-              <size>102 7.34 0.02</size>
+              <size>51 7.34 0.02</size>
             </box>
           </geometry>
           <surface>
@@ -431,12 +430,11 @@
             </friction>
           </surface>
         </collision>
-
         <collision name="collision_2">
-          <pose>125 25 0 0 0 0.78539</pose>
+          <pose>-75 30 0 0 0 -0.6747</pose>
           <geometry>
             <box>
-              <size>72 7.34 0.02</size>
+              <size>66.0 7.34 0.02</size>
             </box>
           </geometry>
           <surface>
@@ -450,10 +448,10 @@
         </collision>
 
         <collision name="collision_3">
-          <pose>150 75 0 0 0 0</pose>
+          <pose>-100 76 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>7.34 53 0.02</size>
+              <size>7.34 56 0.02</size>
             </box>
           </geometry>
           <surface>
@@ -467,10 +465,10 @@
         </collision>
 
         <collision name="collision_4">
-          <pose>173.5 100 0 0 0 0</pose>
+          <pose>-50 115 0 0 0 0.291</pose>
           <geometry>
             <box>
-              <size>54.5 7.34 0.02</size>
+              <size>105 7.34 0.02</size>
             </box>
           </geometry>
           <surface>
@@ -484,7 +482,7 @@
         </collision>
 
         <collision name="collision_5">
-          <pose>198 106 0 0 0 0</pose>
+          <pose>-5 135 0 0 0 1.8505</pose>
           <geometry>
             <box>
               <size>6 5 0.02</size>
@@ -499,56 +497,58 @@
             </friction>
           </surface>
         </collision>
-
         <!--
         <visual name="visual_1">
-          <pose>51 0 0 0 0 0</pose>
+          <pose>-25.5 5.1 0 0 0 -0.197</pose>
           <geometry>
             <box>
-              <size>102 7.34 0.02</size>
+              <size>51 7.34 0.02</size>
             </box>
           </geometry>
         </visual>
+
         <visual name="visual_2">
-          <pose>125 25 0 0 0 0.78539</pose>
+          <pose>-75 30 0 0 0 -0.6747</pose>
           <geometry>
             <box>
-              <size>74 7.34 0.02</size>
+              <size>66.0 7.34 0.02</size>
             </box>
           </geometry>
         </visual>
+
         <visual name="visual_3">
-          <pose>150 75 0 0 0 0</pose>
+          <pose>-100 76 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>7.34 53 0.02</size>
+              <size>7.34 56 0.02</size>
             </box>
           </geometry>
         </visual>
+
         <visual name="visual_4">
-          <pose>173.5 100 0 0 0 0</pose>
+          <pose>-50 115 0 0 0 0.291</pose>
           <geometry>
             <box>
-              <size>54.5 7.34 0.02</size>
+              <size>105 7.34 0.02</size>
             </box>
           </geometry>
         </visual>
+
         <visual name="visual_5">
-          <pose>198 106 0 0 0 0</pose>
+          <pose>-5 135 0 0 0 1.8505</pose>
           <geometry>
             <box>
               <size>6 5 0.02</size>
             </box>
           </geometry>
         </visual>
--->
+        -->
       </link>
     </model>
 
-    <!--
     <include>
       <uri>model://atlas_sandia_hands</uri>
-      <pose>-10.0 2.0 1.0 0 0 -1.5707</pose>
+      <pose>8.78 -4.56 1.0 0 0 1.35</pose>
     </include>
 
     <plugin filename="libVRCPlugin.so" name="vrc_plugin">
@@ -573,7 +573,6 @@
     </plugin>
 
     <plugin filename="libVRCScoringPlugin.so" name="vrc_scoring"/>
-    -->
 
   </world>
 </sdf>
