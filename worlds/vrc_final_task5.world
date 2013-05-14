@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
-  <world name="vrc_task_2">
+  <world name="vrc_task_5">
 
     <!-- place user camera -->
     <gui>
@@ -116,92 +116,90 @@
       <static>true</static>
       <pose>175 95 0 0 0 1.5707</pose>
     </include>
- 
     <include>
       <uri>model://gate</uri>
       <name>gate_3</name>
       <static>true</static>
-      <pose>198 103 2.0 0 0 1.5707</pose>
+      <pose>0 -4 2.0 0 0 -1.5707</pose>
     </include>
     <include>
       <uri>model://gate_number_4</uri>
       <name>gate_number_4_a</name>
       <static>true</static>
-      <pose>195.85 103 3.75 0 0 1.5707</pose>
+      <pose>-2.15 -4 3.75 0 0 1.5707</pose>
     </include>
     <include>
       <uri>model://gate_number_4</uri>
       <name>gate_number_4_b</name>
       <static>true</static>
-      <pose>200.15 103 3.75 0 0 1.5707</pose>
+      <pose>2.15 -4 3.75 0 0 1.5707</pose>
     </include>
-
     <include>
       <uri>model://starting_pen</uri>
       <static>true</static>
-      <pose>-10 7.0 0.0 0 0 3.1415</pose>
+      <pose>210 97 0 0 0 0</pose>
     </include>
 
     <include>
       <uri>model://gate</uri>
       <name>gate_0</name>
       <static>true</static>
-      <pose>-10 -2 2.0 0 0 -1.5707</pose>
+      <pose>209.5 106 2.0 0 0 1.5707</pose>
     </include>
     <include>
       <uri>model://gate_number_1</uri>
       <name>gate_number_1_a</name>
       <static>true</static>
-      <pose>-7.85 -2 3.75 0 0 1.5707</pose>
+      <pose>211.15 106 3.75 0 0 -1.5707</pose>
     </include>
     <include>
       <uri>model://gate_number_1</uri>
       <name>gate_number_1_b</name>
       <static>true</static>
-      <pose>-12.15 -2 3.75 0 0 1.5707</pose>
+      <pose>207.85 106 3.75 0 0 -1.5707</pose>
     </include>
 
     <include>
       <uri>model://vehicle_gate</uri>
       <name>vehiclegate_1</name>
       <static>true</static>
-      <pose>5 0 2.0 0 0 0</pose>
+      <pose>190 100 2.0 0 0 0</pose>
     </include>
     <include>
       <uri>model://gate_number_2</uri>
       <name>gate_number_2_a</name>
       <static>true</static>
-      <pose>5 -3.65 3.75 0 0 0</pose>
+      <pose>190 96.35 3.75 0 0 0</pose>
     </include>
     <include>
       <uri>model://gate_number_2</uri>
       <name>gate_number_2_b</name>
       <static>true</static>
-      <pose>5 3.65 3.75 0 0 0</pose>
+      <pose>190 103.65 3.75 0 0 0</pose>
     </include>
 
     <include>
       <uri>model://vehicle_gate</uri>
       <name>vehiclegate_2</name>
       <static>true</static>
-      <pose>190 100 2.0 0 0 0</pose>
+      <pose>5 0 2.0 0 0 0</pose>
     </include>
     <include>
       <uri>model://gate_number_3</uri>
       <name>gate_number_3_a</name>
       <static>true</static>
-      <pose>190 96.35 3.75 0 0 0</pose>
+      <pose>5 -3.65 3.75 0 0 0</pose>
     </include>
     <include>
       <uri>model://gate_number_3</uri>
       <name>gate_number_3_b</name>
       <static>true</static>
-      <pose>190 103.65 3.75 0 0 0</pose>
+      <pose>5 3.65 3.75 0 0 0</pose>
     </include>
 
     <include>
       <uri>model://drc_vehicle</uri>
-      <pose>1.2 1.7 0 0 0 0.2617</pose>
+      <pose>198 100 0 0 0 3.1415</pose>
     </include>
     <include>
       <uri>model://house_1</uri>
@@ -452,10 +450,10 @@
         </collision>
 
         <collision name="collision_5">
-          <pose>198 106 0 0 0 0</pose>
+          <pose>0 -1 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>6 5 0.02</size>
+              <size>6 10 0.02</size>
             </box>
           </geometry>
           <surface>
@@ -502,20 +500,20 @@
           </geometry>
         </visual>
         <visual name="visual_5">
-          <pose>198 106 0 0 0 0</pose>
+          <pose>0 -1 0 0 0 0</pose>
           <geometry>
             <box>
-              <size>6 5 0.02</size>
+              <size>6 10 0.02</size>
             </box>
           </geometry>
         </visual>
--->
+        -->
       </link>
     </model>
 
     <include>
       <uri>model://atlas_sandia_hands</uri>
-      <pose>-10.0 2.0 1.0 0 0 -1.5707</pose>
+      <pose>210 102 1.0 0 0 1.5707</pose>
     </include>
 
     <plugin filename="libVRCPlugin.so" name="vrc_plugin">
