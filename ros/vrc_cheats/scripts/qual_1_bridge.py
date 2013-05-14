@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-import roslib; roslib.load_manifest('vrc_arenas')
+import roslib; roslib.load_manifest('vrc_cheats')
 
 from atlas_msgs.msg import WalkDemoAction, \
                            WalkDemoActionGoal, \

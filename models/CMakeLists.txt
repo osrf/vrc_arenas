@@ -1,4 +1,6 @@
+add_subdirectory(vrc_grass_plane2)
 add_subdirectory(vrc_table)
 add_subdirectory(vrc_valve_a)
 add_subdirectory(vrc_standpipe_a)
 add_subdirectory(vrc_firehose_long_a)
+add_subdirectory(vrc_heightmap_3)
