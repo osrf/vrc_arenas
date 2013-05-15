@@ -25,4 +25,4 @@ add_subdirectory(ros)
 configure_file(${CMAKE_SOURCE_DIR}/cmake/setup.sh.in
                ${PROJECT_BINARY_DIR}/setup.sh @ONLY)
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/setup.sh DESTINATION
-  ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}/)
+  ${CMAKE_INSTALL_PREFIX}/${PROJECT_NAME}/)
