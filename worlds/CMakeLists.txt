@@ -10,7 +10,7 @@ vrc_final_task8.world
 vrc_final_task9.world
 vrc_final_task10.world
 task3a.world
-task3b.world
+vrc_final_task12.world
 task3c.world
 task3d.world
 task3e.world
