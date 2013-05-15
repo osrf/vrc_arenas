@@ -2,4 +2,4 @@ set (files
   vrc_standpipe.png
 )
 
-install(FILES ${files} DESTINATION ${CMAKE_INSTALL_PREFIX}/${PROJECT_NAME}/models/${MODEL_NAME}/materials/textures)
+install(FILES ${files} DESTINATION ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}/models/${MODEL_NAME}/materials/textures)
