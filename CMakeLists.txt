@@ -18,6 +18,7 @@ endif()
 add_subdirectory(media)
 add_subdirectory(worlds)
 add_subdirectory(models)
+add_subdirectory(ros)
 
 #####################################
 # Configure the setup script
