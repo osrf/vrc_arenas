@@ -53,7 +53,7 @@
     </light>
 
     <include>
-      <uri>model://vrc_heightmap_2</uri>
+      <uri>model://vrc_heightmap_3</uri>
     </include>
     <include>
       <uri>model://starting_pen</uri>
@@ -224,8 +224,8 @@
           <surface>
             <friction>
               <ode>
-                <mu>100</mu>
-                <mu2>50</mu2>
+                <mu>.5</mu>
+                <mu2>.5</mu2>
               </ode>
             </friction>
           </surface>

@@ -224,8 +224,8 @@
           <surface>
             <friction>
               <ode>
-                <mu>100</mu>
-                <mu2>50</mu2>
+                <mu>.5</mu>
+                <mu2>.5</mu2>
               </ode>
             </friction>
           </surface>
@@ -320,152 +320,152 @@
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block</name>
-      <pose>5.000000 12.554800 0.118705 1.57 0.000000 1.000000</pose>
+      <pose>7.999994 13.571938 0.017117 1.569996 0 1.0</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_0</name>
-      <pose>8.000000 13.571900 0.000000 0.000000 0.000000 0.200000</pose>
+      <pose>7.999994 13.571938 0.017117 0.000415 0 1.600107</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_1</name>
-      <pose>8.000000 11.000000 0.000000 0.000000 1.57 -1.300000</pose>
+      <pose>8.034527 11.028522 0.140111 -1.677526 0 -1.201830</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_2</name>
-      <pose>6.000000 11.000000 0.000000 0.000000 1.57 0.200000</pose>
+      <pose>6.338434 15.164434 0.119236 -1.570918 0 0.343743</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_3</name>
-      <pose>5.417030 14.528900 0.118279 1.57 0.000000 0.050000</pose>
+      <pose>6.510255 13.660681 0.119189 1.570978 0 0.122518</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_4</name>
-      <pose>7.443130 15.000000 0.000000 0.000000 1.57 0.800000</pose>
+      <pose>7.443250 15.000124 0.234583 -1.185398 1.570794 -0.385398</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_5</name>
-      <pose>7.000000 12.487500 0.000000 0.000000 0.000000 2.000000</pose>
+      <pose>5.857943 10.819897 0.017645 0 0 1.797765</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_6</name>
-      <pose>8.000000 8.000000 0.000000 0.000000 0.000000 3.000000</pose>
+      <pose>6.068362 7.549482 0.017628 -0.000149 0 -2.074449</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_7</name>
-      <pose>5.000000 8.000000 0.000000 0.000000 1.57 -2.00000</pose>
+      <pose>4.233643 7.165561 0.234583 0 1.570796 0</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_8</name>
-      <pose>5.000000 14.000000 0.000000 1.57 0.000000 -0.500000</pose>
+      <pose>5.863507 15.016849 0.119138 1.570395 0 -1.496545</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_9</name>
-      <pose>6.700000 9.000000 0.000000 0.000000 0.000000 2.60000</pose>
+      <pose>6.700000 8.999984 0.017108 0 0 2.6</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_10</name>
-      <pose>4.000000 16.452500 0.000000 0.000000 0.000000 1.200000</pose>
+      <pose>6.836052 12.008048 0.017634 0 0 0.489276</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_11</name>
-      <pose>4.443480 9.510620 0.118530 1.57 0.000000 0.000000</pose>
+      <pose>6.214898 10.970655 0.119248 1.5708 0 2.114063</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_12</name>
-      <pose>9.000000 16.000000 0.000000 0.000000 0.000000 0.300000</pose>
+      <pose>7.540978 17.217592 0.235120 -1.601005 1.570775 -1.407452</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_13</name>
-      <pose>4.520650 16.000000 0.000000 0.000000 0.000000 0.100000</pose>
+      <pose>6.880469 12.090623 0.220310 -0.000906 0.001199 0.961750</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_14</name>
-      <pose>9.000000 11.528900 0.118707 1.57 0.000000 1.000000</pose>
+      <pose>9.588512 11.080721 0.152221 1.123407 -0.146542 1.167764</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_15</name>
-      <pose>8.000000 9.579940 0.000000 0.000000 0.000000 0.000000</pose>
+      <pose>7.751723 9.033362 0.017640 0.000087 -0.000011 1.695999</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_16</name>
-      <pose>5.000000 16.000000 0.000000 0.000000 0.000000 0.800000</pose>
+      <pose>9.120844 13.579553 0.235117 2.168 -1.570789 -1.368064</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_17</name>
-      <pose>5.700000 16.594800 0.000000 0.000000 1.57 -0.800000</pose>
+      <pose>5.411863 16.667938 0.234983 2.981697 1.570224 -2.253740</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_18</name>
-      <pose>5.000000 11.000000 0.000000 0.000000 0.000000 -0.00500</pose>
+      <pose>4.999999 11.000035 0.017094 0.000266 0.000013 -0.005116</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_19</name>
-      <pose>8.000000 7.586660 0.000000 0.000000 1.57 0.50000</pose>
+      <pose>8.047156 7.154350 0.032534 0.090862 0.026284 -3.079875</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_20</name>
-      <pose>3.530910 8.500470 0.000000 0.000000 0.000000 -0.100000</pose>
+      <pose>4.221656 10.069578 0.119200 1.572228 -0.000099 0.076993</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_21</name>
-      <pose>9.000000 8.598240 0.000000 0.000000 1.57 2.300000</pose>
+      <pose>8.999885 8.598369 0.234583 1.991591 1.570795 -1.991591</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_22</name>
-      <pose>9.000000 15.402400 0.000000 0.000000 0.000000 2.800000</pose>
+      <pose>9.000010 15.402369 0.017108 0.000017 0.000090 2.799976</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_23</name>
-      <pose>5.000000 14.000000 0.000000 0.000000 1.57 -1.900000</pose>
+      <pose>4.894613 14.114341 0.235119 0.393685 1.570783 -0.831023</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_24</name>
-      <pose>8.000000 12.000000 0.000000 0.000000 0.000000 1.900000</pose>
+      <pose>7.989601 10.772406 0.049851 -0.232860 -0.041911 1.564724</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_25</name>
-      <pose>8.000000 13.000000 0.000000 0.000000 0.000000 0.300000</pose>
+      <pose>6.655590 13.468636 0.235121 -1.166135 1.570792 -2.618959</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_26</name>
-      <pose>6.000000 7.500000 0.000000 0.000000 0.000000 0.100000</pose>
+      <pose>8.099932 7.713609 0.119241 1.570830 -0.000010 -0.158713</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_27</name>
-      <pose>7.421570 9.000000 0.000000 0.000000 0.000000 0.000000</pose>
+      <pose>6.325397 8.212666 0.235120 -1.377299 1.570777 -0.298664</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block_28</name>
-      <pose>4.000000 10.000000 0.000000 0.000000 0.000000 1.200000</pose>
+      <pose>3.727287 10.095365 0.032623 0.000004 0.068917 0.018339</pose>
     </include>
 <!--
     <include>
