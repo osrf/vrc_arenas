@@ -53,7 +53,7 @@
     </light>
 
     <include>
-      <uri>model://vrc_heightmap_3</uri>
+      <uri>model://vrc_heightmap_4</uri>
     </include>
     <include>
       <uri>model://starting_pen</uri>

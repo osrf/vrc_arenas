@@ -1,4 +1,5 @@
 set (files
+  vrc_final.launch
   vrc_final_task1.launch
   vrc_final_task2.launch
   vrc_final_task3.launch
