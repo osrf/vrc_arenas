@@ -4,11 +4,11 @@ vrc_final_task2.world
 vrc_final_task3.world
 vrc_final_task4.world
 vrc_final_task5.world
-task2a.world
-task2b.world
-task2c.world
-task2d.world
-task2e.world
+vrc_final_task6.world
+vrc_final_task7.world
+vrc_final_task8.world
+vrc_final_task9.world
+vrc_final_task10.world
 task3a.world
 task3b.world
 task3c.world

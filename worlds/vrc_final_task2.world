@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
-  <world name="vrc_task_2">
+  <!-- Note: Starting pen in different location -->
+  <world name="vrc_task_6">
 
     <!-- place user camera -->
     <gui>
