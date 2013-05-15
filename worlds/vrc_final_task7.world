@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
   <!-- Note: Mud is more slippery -->
-  <world name="vrc_task_7">
+  <world name="vrc_task_2">
     <scene>
       <ambient>0.2 0.2 0.2 1.0</ambient>
     </scene>
@@ -224,8 +224,8 @@
           <surface>
             <friction>
               <ode>
-                <mu>100</mu>
-                <mu2>50</mu2>
+                <mu>10</mu>
+                <mu2>5</mu2>
               </ode>
             </friction>
           </surface>
@@ -248,74 +248,6 @@
         </visual>
       </link>
     </model>
-
-    <!--
-    <include>
-      <uri>model://gate</uri>
-      <name>gate_6</name>
-      <pose>0 134 2.0 0 0 1.5707</pose>
-    </include>
-
-    <include>
-      <uri>model://gate</uri>
-      <name>gate_7</name>
-      <pose>0 152 2.0 0 0 1.5707</pose>
-    </include>
-    -->
-<!--
-    <model name="test_box">
-      <static>false</static>
-      <pose>5 -1 0.5 0 0 0</pose>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.3 0.05 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.3 0.05 0.1</size>
-            </box>
-          </geometry>
-        </visual>
-      </link>
-    </model>
--->
-
-    <!--
-    <model name="start_platform">
-      <static>true</static>
-      <pose>0 -51 0.05 0 0 0</pose>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>20 30 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>20 30 0.1</size>
-            </box>
-          </geometry>
-        </visual>
-      </link>
-    </model>
--->
-<!--    <plugin filename="libRubblePlugin.so" name="rubble">
-      <bottom_right>4 7.0 0.0</bottom_right>
-      <top_left>10 17 0.4</top_left>
-      <min_size>0.05 0.05 0.05</min_size>
-      <max_size>0.2 0.2 0.2</max_size>
-      <min_mass>0.1</min_mass>
-      <max_mass>1.0</max_mass>
-      <count>50</count>
-    </plugin> -->
 
     <include>
       <uri>model://cinder_block</uri>
@@ -467,104 +399,6 @@
       <name>cinder_block_28</name>
       <pose>4.000000 10.000000 0.000000 0.000000 0.000000 1.200000</pose>
     </include>
-<!--
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier8</name>
-      <pose>3.0 13.7 0.000000 0.000000 0.000000 1.57</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier9</name>
-      <pose>3.0 10. 0.000000 0.000000 0.000000 1.57</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier10</name>
-      <pose>1.33 7.15 0.000000 0.000000 0.000000 0.61</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier11</name>
-      <pose>-1.02 4.440000 0.000000 0.000000 0.000000 1.09</pose>
-    </include>
-
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier12</name>
-      <pose>-2.94 1.29000 0.000000 0.000000 0.000000 0.97</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier13</name>
-      <pose>-4.45 -2.148 0.000000 0.000000 0.000000 1.33</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier14</name>
-      <pose>-4.76 -5.9700 0.000000 0.000000 0.000000 1.67</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier15</name>
-      <pose>-4.13 -9.49000 0.000000 0.000000 0.000000 1.83</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier18</name>
-      <pose>10 14.0 0.000000 0.000000 0.000000 1.57</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier19</name>
-      <pose>10 10.0 0.000000 0.000000 0.000000 1.57</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier20</name>
-      <pose>10.77 6.12 0.000000 0.000000 0.000000 1.95</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier21</name>
-      <pose>11.69 2.3 0.000000 0.000000 0.000000 1.64</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier22</name>
-      <pose>11.39 -1.55 0.000000 0.000000 0.000000 1.36</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier23</name>
-      <pose>9.75 -5.14 0.000000 0.000000 0.000000 0.93</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier24</name>
-      <pose>8.4 -6.9 0.000000 0.000000 0.000000 0.91</pose>
-    </include>
-
-    <include>
-      <uri>model://jersey_barrier</uri>
-      <name>jersey_barrier25</name>
-      <pose>6.0 -9.559 0.000000 0.000000 0.000000 0.72</pose>
-    </include>
--->
 
     <include>
       <uri>model://atlas_sandia_hands</uri>

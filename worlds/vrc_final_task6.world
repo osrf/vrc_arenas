@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
   <!-- Note: Starting pen in different location -->
-  <world name="vrc_task_6">
+  <world name="vrc_task_2">
     <scene>
       <ambient>0.2 0.2 0.2 1.0</ambient>
     </scene>
