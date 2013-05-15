@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
-  <world name="vrc_task_2">
+  <world name="vrc_task_1">
 
     <!-- place user camera -->
     <gui>
