@@ -114,18 +114,18 @@
       <pose>-1.9 -4.0 -0.2 0 0 1.5707</pose>
     </include>
     <include>
-      <uri>model://vrc_firehose_long_a</uri>
+      <uri>model://vrc_firehose_long</uri>
       <pose>-2.2 -4.7 0.9 0 0 1.5707</pose>
     </include>
     <include>
-      <uri>model://vrc_standpipe_a</uri>
+      <uri>model://vrc_standpipe</uri>
       <pose>-2.5 -3.5 1.2 -1.5707 0 0</pose>
     </include>
     <include>
-      <uri>model://vrc_valve_a</uri>
+      <uri>model://vrc_valve</uri>
       <pose>-3.0 -3.5 1.2 -1.5707 0 0</pose>
     </include>
- 
+
     <include>
       <uri>model://atlas_sandia_hands</uri>
       <pose>-7 -15 1.0 0 0 0</pose>
@@ -152,7 +152,7 @@
     </plugin>
 
     <plugin filename="libVRCScoringPlugin.so" name="vrc_scoring">
-      <score_file>/tmp/vrc_task_3/score.log</score_file>
+      <score_file>/tmp/vrc_final_task11/score.log</score_file>
     </plugin>
 
   </world>

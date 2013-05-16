@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
-  <!-- Note: Colors changed. NOT DONE -->
+  <!-- Note: Colors changed. -->
   <world name="vrc_task_3">
     <!-- place user camera -->
     <gui>
@@ -126,7 +126,6 @@
       <pose>-3.0 -3.5 1.2 -1.5707 0 0</pose>
     </include>
 
-    <!-- 
     <include>
       <uri>model://atlas_sandia_hands</uri>
       <pose>-7 -15 1.0 0 0 0</pose>
@@ -153,9 +152,8 @@
     </plugin>
 
     <plugin filename="libVRCScoringPlugin.so" name="vrc_scoring">
-      <score_file>/tmp/vrc_task_3/score.log</score_file>
+      <score_file>/tmp/vrc_final_task12/score.log</score_file>
     </plugin>
--->
 
   </world>
 </sdf>

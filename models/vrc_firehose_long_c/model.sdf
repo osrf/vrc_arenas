@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version="1.4">
-  <model name="vrc_firehose_long_b">
+  <model name="vrc_firehose_long_c">
     <pose>-1.81 -4.23 0.15 0.708 0 0</pose>
 
     <link name="coupling">
@@ -46,7 +46,7 @@
         <geometry>
           <cylinder>
             <length>0.025</length>
-            <radius>0.055</radius>
+            <radius>0.0605</radius>
           </cylinder>
         </geometry>
         <material>
@@ -59,7 +59,7 @@
         <geometry>
           <cylinder>
             <length>0.025</length>
-            <radius>0.055</radius>
+            <radius>0.0605</radius>
           </cylinder>
         </geometry>
       </collision>
@@ -1058,7 +1058,7 @@
       <axis>
         <xyz>1 0 0</xyz>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <physics>
@@ -1078,7 +1078,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1088,7 +1088,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1108,7 +1108,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1118,7 +1118,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1138,7 +1138,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1148,7 +1148,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1168,7 +1168,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1178,7 +1178,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1198,7 +1198,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1208,7 +1208,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1228,7 +1228,7 @@
           <upper>2.35</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1238,7 +1238,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1258,7 +1258,7 @@
           <upper>3.14</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1268,7 +1268,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1288,7 +1288,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1298,7 +1298,7 @@
           <upper>2.35</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1318,7 +1318,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1328,7 +1328,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1348,7 +1348,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1358,7 +1358,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1378,7 +1378,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1388,7 +1388,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1408,7 +1408,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1418,7 +1418,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1438,7 +1438,7 @@
           <upper>0.72</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1448,7 +1448,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1468,7 +1468,7 @@
           <upper>0.0</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1478,7 +1478,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1498,7 +1498,7 @@
           <upper>0.72</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1508,7 +1508,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1528,7 +1528,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1538,7 +1538,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1558,7 +1558,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1568,7 +1568,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1588,7 +1588,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1598,7 +1598,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1618,7 +1618,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1628,7 +1628,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1648,7 +1648,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1658,7 +1658,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>
@@ -1678,7 +1678,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis>
       <axis2>
@@ -1688,7 +1688,7 @@
           <upper>1.57</upper>
         </limit>
         <dynamics>
-          <damping>1.5</damping>
+          <damping>1.0</damping>
         </dynamics>
       </axis2>
       <physics>

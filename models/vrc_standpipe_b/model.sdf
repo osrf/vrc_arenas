@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name='standpipe_b'>
+    <static>false</static>
+    <link name="standpipe">
+      <collision name="collision_1">
+        <pose>0 0 0.2 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.10615</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+      </collision>
+
+      <collision name="collision_2">
+        <pose>0 0 0.32 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0759</radius>
+            <length>0.2</length>
+          </cylinder>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <pose>0 0 0.15 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://vrc_standpipe/meshes/vrc_standpipe.dae</uri>
+            <scale>1.1 1.1 1.1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name="world" type="revolute">
+      <parent>world</parent>
+      <child>standpipe</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+        </limit>
+      </axis>
+      </physics>
+    </joint>
+
+  </model>
+  </model>
+</sdf>

@@ -1,4 +1,4 @@
-material vrc/firehose_canvas
+material vrc/firehose_canvas_a
 {
   receive_shadows off
 	technique
@@ -19,7 +19,7 @@ material vrc/firehose_canvas
 	}
 }
 
-material vrc/firehose_coupling
+material vrc/firehose_coupling_a
 {
 	technique
 	{
@@ -38,7 +38,7 @@ material vrc/firehose_coupling
 	}
 }
 
-material vrc/firehose_red_coupling
+material vrc/firehose_red_coupling_a
 {
 	technique
 	{
@@ -50,7 +50,7 @@ material vrc/firehose_red_coupling
 
 			texture_unit
 			{
-				texture vrc_standpipe.png
+				texture vrc_standpipe_a.png
 				filtering trilinear
 			}
 		}
