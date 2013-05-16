@@ -9,11 +9,9 @@ vrc_final_task7.world
 vrc_final_task8.world
 vrc_final_task9.world
 vrc_final_task10.world
-task3a.world
+vrc_final_task11.world
 vrc_final_task12.world
-task3c.world
-task3d.world
-task3e.world
+vrc_final_task13.world
 )
 
 install(FILES ${files} DESTINATION ${CMAKE_INSTALL_PREFIX}/share/vrc_arenas/worlds/)

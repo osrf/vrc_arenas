@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
-  <!-- Note: Colors changed -->
+  <!-- Note: Colors changed. NOT DONE -->
   <world name="vrc_task_3">
     <!-- place user camera -->
     <gui>
