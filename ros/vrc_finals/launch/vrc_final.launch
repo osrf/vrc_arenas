@@ -11,7 +11,7 @@
   <include file="$(find atlas_utils)/launch/atlas_no_controllers.launch">
     <arg name="gzname" value="$(arg gzname)"/>
     <arg name="gzworld" value="$(arg gzworld).world"/>
-    <arg name="extra_gazebo_args" value="-r --record_path=/tmp/$(arg gzworld)"/>
+    <arg name="extra_gazebo_args" value="-r --record_encoding=zlib --record_path=/tmp/$(arg gzworld)"/>
   </include>
 
   <!-- to trigger synchronization delay, set
