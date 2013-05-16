@@ -5,5 +5,6 @@ set (files
 )
 
 add_subdirectory(meshes)
+add_subdirectory(materials)
 
-install(FILES ${files} DESTINATION ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}/models/${MODEL_NAME})
+install(FILES ${files} DESTINATION ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}/models/${MODEL_NAME}/)
