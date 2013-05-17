@@ -1,7 +1,7 @@
 <launch>
 
   <arg name="gzworld" default="vrc_final_task1"/>
-  <arg name="gzname" default="gazebo"/>
+  <arg name="gzname" default="gzserver"/>
 
   <arg name="hand_suffix" default=""/>
 
