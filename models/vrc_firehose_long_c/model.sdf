@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version="1.4">
-  <model name="vrc_firehose_long_c">
+  <model name="vrc_firehose_long">
     <pose>-1.81 -4.23 0.15 0.708 0 0</pose>
 
     <link name="coupling">

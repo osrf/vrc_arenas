@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.4'>
-  <model name='standpipe_b'>
+  <model name='standpipe'>
     <static>false</static>
     <link name="standpipe">
       <collision name="collision_1">
