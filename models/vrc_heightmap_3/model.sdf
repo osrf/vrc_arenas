@@ -19,25 +19,25 @@
             <texture>
               <diffuse>file://media/materials/textures/dirt_diffusespecular.png</diffuse>
               <normal>file://media/materials/textures/flat_normal.png</normal>
-              <size>5</size>
+              <size>10</size>
             </texture>
             <texture>
               <diffuse>file://media/materials/textures/grass_diffusespecular.png</diffuse>
               <normal>file://media/materials/textures/flat_normal.png</normal>
-              <size>5</size>
+              <size>10</size>
             </texture>
             <texture>
               <diffuse>file://media/materials/textures/fungus_diffusespecular.png</diffuse>
               <normal>file://media/materials/textures/flat_normal.png</normal>
-              <size>5</size>
+              <size>10</size>
             </texture>
             <blend>
-              <min_height>.48</min_height>
-              <fade_dist>.4</fade_dist>
+              <min_height>15</min_height>
+              <fade_dist>5</fade_dist>
             </blend>
             <blend>
-              <min_height>2.2</min_height>
-              <fade_dist>1</fade_dist>
+              <min_height>30</min_height>
+              <fade_dist>10</fade_dist>
             </blend>
             <uri>model://vrc_heightmap_3/materials/textures/heightmap.png</uri>
             <size>500 500 118</size>
