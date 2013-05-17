@@ -1,4 +1,4 @@
-set(MODEL_NAME vrc_firehose_long_b)
+set(MODEL_NAME vrc_firehose_long_c)
 set (files 
   model.config
   model.sdf
