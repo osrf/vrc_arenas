@@ -3,10 +3,15 @@
 #recipient="nate@osrfoundation.org"
 
 while [ 1 ]; do
-  task_num=$((expr $RANDOM % 15 + 1))
+  task_num=`expr $RANDOM % 15 + 1`
   task="vrc_final_task$task_num"
 
   roslaunch vrc_finals ${task}.launch &
+
+  sleep 20
+  run_id=`rosparam get /run_id`
+
+  # TODO: Add in task specific commands that move atlas
 
   # Sleep for 60 minutes
   sleep 3600
@@ -17,20 +22,15 @@ while [ 1 ]; do
   num_end_tags=`grep '</gazebo_log>' /tmp/${task}/state.log | wc | awk {'print $1'}`
 
   if [ $num_end_tags -ne 1 ]; then
-    echo "Wrong number of end tags: $num_end_tags" >> /tmp/$task.err
-    #echo "Wrong number of end tags: $num_end_tags" | mail -s "Fail Qual Task $task_num" $recipient
-
-    echo "[FAIL] Wrong number of end tags: $num_end_tags"
+    echo "[FAIL] Wrong number of end tags: $num_end_tags" >> ~/.ros/log/$run_id/$task.log
   else
-    echo "[PASS] Right number of end tags: $num_end_tags"
+    echo "[PASS] Correct number of end tags: $num_end_tags" >> ~/.ros/log/$run_id/$task.log
   fi
 
   last_line=`tail -n 1 /tmp/${task}/state.log`
   if [ $last_line != '</gazebo_log>' ]; then
-    echo "Wrong last line: $last_line" >> /tmp/$task.err
-    #echo "Wrong last line: $last_line" | mail -s "Fail Qual Task $task_num" $recipient
-    echo "[FAIL] Wrong last line: $last_line"
+    echo "[FAIL] Wrong last line: $last_line" >> ~/.ros/log/$run_id/$task.err
   else
-    echo "[PASS] Correct last line: $last_line"
+    echo "[PASS] Correct last line: $last_line" >> ~/.ros/log/$run_id/$task.log
   fi
 done
