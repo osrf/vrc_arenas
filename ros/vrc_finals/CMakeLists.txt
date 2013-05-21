@@ -1,4 +1,7 @@
+set(ROS_PACKAGE_NAME vrc_finals)
+
 add_subdirectory(launch)
+add_subdirectory(test)
 
 set (files
   manifest.xml
