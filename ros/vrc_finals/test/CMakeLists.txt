@@ -7,9 +7,6 @@ set (rostests
   vrc_final_task1_gzlog_stop.test
   vrc_final_task6_gzlog_stop.test
   vrc_final_task11_gzlog_stop.test
-  vrc_final_task1_gzlog_stop_30min_run.test
-  vrc_final_task6_gzlog_stop_30min_run.test
-  vrc_final_task11_gzlog_stop_30min_run.test
 )
 
 option(LIGHT_TEST_SUITE "LIGHT_TEST_SUITE" OFF)
@@ -27,6 +24,7 @@ if (NOT LIGHT_TEST_SUITE)
     vrc_final_task3_gzlog_stop.test
     vrc_final_task4_gzlog_stop.test
     vrc_final_task5_gzlog_stop.test
+    vrc_final_task1_gzlog_stop_30min_run.test
     vrc_final_task2_gzlog_stop_30min_run.test
     vrc_final_task3_gzlog_stop_30min_run.test
     vrc_final_task4_gzlog_stop_30min_run.test
@@ -41,6 +39,7 @@ if (NOT LIGHT_TEST_SUITE)
     vrc_final_task8_gzlog_stop.test
     vrc_final_task9_gzlog_stop.test
     vrc_final_task10_gzlog_stop.test
+    vrc_final_task6_gzlog_stop_30min_run.test
     vrc_final_task7_gzlog_stop_30min_run.test
     vrc_final_task8_gzlog_stop_30min_run.test
     vrc_final_task9_gzlog_stop_30min_run.test
@@ -55,6 +54,7 @@ if (NOT LIGHT_TEST_SUITE)
     vrc_final_task13_gzlog_stop.test
     vrc_final_task14_gzlog_stop.test
     vrc_final_task15_gzlog_stop.test
+    vrc_final_task11_gzlog_stop_30min_run.test
     vrc_final_task12_gzlog_stop_30min_run.test
     vrc_final_task13_gzlog_stop_30min_run.test
     vrc_final_task14_gzlog_stop_30min_run.test
