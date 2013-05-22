@@ -10,6 +10,8 @@ set (rostests
   vrc_final_task1_start_standup.test
   vrc_final_task6_start_standup.test
   vrc_final_task11_start_standup.test
+  vrc_final_task1_scoring.test
+  vrc_final_task6_scoring.test
 )
 
 option(LIGHT_TEST_SUITE "LIGHT_TEST_SUITE" OFF)
@@ -55,6 +57,10 @@ if (NOT LIGHT_TEST_SUITE)
     vrc_final_task8_start_standup.test
     vrc_final_task9_start_standup.test
     vrc_final_task10_start_standup.test
+    vrc_final_task7_scoring.test
+    vrc_final_task8_scoring.test
+    vrc_final_task9_scoring.test
+    vrc_final_task10_scoring.test
 
     # VRC 3 worlds
     vrc_final_task12_rosapi.test
