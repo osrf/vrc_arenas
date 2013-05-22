@@ -10,6 +10,9 @@ set (rostests
   vrc_final_task1_gzlog_stop_30min_run.test
   vrc_final_task6_gzlog_stop_30min_run.test
   vrc_final_task11_gzlog_stop_30min_run.test
+  vrc_final_task1_start_standup.test
+  vrc_final_task6_start_standup.test
+  vrc_final_task11_start_standup.test
 )
 
 option(LIGHT_TEST_SUITE "LIGHT_TEST_SUITE" OFF)
@@ -31,6 +34,10 @@ if (NOT LIGHT_TEST_SUITE)
     vrc_final_task3_gzlog_stop_30min_run.test
     vrc_final_task4_gzlog_stop_30min_run.test
     vrc_final_task5_gzlog_stop_30min_run.test
+    vrc_final_task2_start_standup.test
+    vrc_final_task3_start_standup.test
+    vrc_final_task4_start_standup.test
+    vrc_final_task5_start_standup.test
 
     # VRC 2 worlds
     vrc_final_task7_rosapi.test
@@ -45,6 +52,10 @@ if (NOT LIGHT_TEST_SUITE)
     vrc_final_task8_gzlog_stop_30min_run.test
     vrc_final_task9_gzlog_stop_30min_run.test
     vrc_final_task10_gzlog_stop_30min_run.test
+    vrc_final_task7_start_standup.test
+    vrc_final_task8_start_standup.test
+    vrc_final_task9_start_standup.test
+    vrc_final_task10_start_standup.test
 
     # VRC 3 worlds
     vrc_final_task12_rosapi.test
@@ -59,6 +70,10 @@ if (NOT LIGHT_TEST_SUITE)
     vrc_final_task13_gzlog_stop_30min_run.test
     vrc_final_task14_gzlog_stop_30min_run.test
     vrc_final_task15_gzlog_stop_30min_run.test
+    vrc_final_task12_start_standup.test
+    vrc_final_task13_start_standup.test
+    vrc_final_task14_start_standup.test
+    vrc_final_task15_start_standup.test
   )
 endif()
 
