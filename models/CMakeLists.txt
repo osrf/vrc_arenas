@@ -22,3 +22,5 @@ add_subdirectory(vrc_firehose_long_b)
 add_subdirectory(vrc_standpipe_b)
 add_subdirectory(vrc_firehose_long_c)
 
+# For vrc_task_15
+add_subdirectory(vrc_valve_b)
