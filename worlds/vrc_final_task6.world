@@ -590,7 +590,7 @@
     </plugin>
 
     <plugin filename="libVRCScoringPlugin.so" name="vrc_scoring">
-      <score_file>/tmp/vrc_final_task5/score.log</score_file>
+      <score_file>/tmp/vrc_final_task6/score.log</score_file>
     </plugin>
 
   </world>
