@@ -13,7 +13,7 @@ set (rostests
   vrc_final_task1_scoring.test
   # Need to figure out what's make teleport to fall the robot
   # vrc_final_task6_scoring.test
-  vrc_final_task7_scoring
+  vrc_final_task7_scoring.test
 )
 
 option(LIGHT_TEST_SUITE "LIGHT_TEST_SUITE" OFF)
