@@ -10,6 +10,10 @@ set (rostests
   vrc_final_task1_start_standup.test
   vrc_final_task6_start_standup.test
   vrc_final_task11_start_standup.test
+  vrc_final_task1_scoring.test
+  # Need to figure out what's make teleport to fall the robot
+  # vrc_final_task6_scoring.test
+  vrc_final_task7_scoring
 )
 
 option(LIGHT_TEST_SUITE "LIGHT_TEST_SUITE" OFF)
@@ -36,6 +40,11 @@ if (NOT LIGHT_TEST_SUITE)
     vrc_final_task3_start_standup.test
     vrc_final_task4_start_standup.test
     vrc_final_task5_start_standup.test
+    vrc_final_task2_scoring.test
+    vrc_final_task3_scoring.test
+    # 4 and 5 need proper pose teleport
+    # vrc_final_task4_scoring.test
+    # vrc_final_task5_scoring.test
 
     # VRC 2 worlds
     vrc_final_task7_rosapi.test
@@ -55,6 +64,10 @@ if (NOT LIGHT_TEST_SUITE)
     vrc_final_task8_start_standup.test
     vrc_final_task9_start_standup.test
     vrc_final_task10_start_standup.test
+    # vrc_final_task7_scoring.test
+    vrc_final_task8_scoring.test
+    vrc_final_task9_scoring.test
+    vrc_final_task10_scoring.test
 
     # VRC 3 worlds
     vrc_final_task12_rosapi.test
