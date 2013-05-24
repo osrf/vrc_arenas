@@ -9,7 +9,7 @@
 
   <test pkg="rostest" time-limit="240.0" type="hztest" test-name="atlas_hztest_sandia_hands_l_hand_joint_states">
     <param name="hz" value="1000.0"/>
-    <param name="wait_time" value="180.0"/>
+    <param name="wait_time" value="20.0"/>
     <param name="hzerror" value="20.0"/>
     <param name="topic" value="/sandia_hands/l_hand/joint_states"/>
     <param name="test_duration" value="10.0"/>
@@ -17,7 +17,7 @@
 
   <test pkg="rostest" time-limit="240.0" type="hztest" test-name="atlas_hztest_sandia_hands_l_hand_imu">
     <param name="hz" value="1000.0"/>
-    <param name="wait_time" value="180.0"/>
+    <param name="wait_time" value="20.0"/>
     <param name="hzerror" value="20.0"/>
     <param name="topic" value="/sandia_hands/l_hand/imu"/>
     <param name="test_duration" value="10.0"/>
@@ -26,7 +26,7 @@
 <!-- Not yet implemented
   <test pkg="rostest" time-limit="240.0" type="hztest" test-name="atlas_hztest_sandia_hands_l_hand_tacile_raw">
     <param name="hz" value="1000.0"/>
-    <param name="wait_time" value="180.0"/>
+    <param name="wait_time" value="20.0"/>
     <param name="hzerror" value="20.0"/>
     <param name="topic" value="/sandia_hands/l_hand/tactile_raw"/>
     <param name="test_duration" value="10.0"/>
@@ -35,7 +35,7 @@
 
   <test pkg="rostest" time-limit="240.0" type="hztest" test-name="atlas_hztest_sandia_hands_r_hand_joint_states">
     <param name="hz" value="1000.0"/>
-    <param name="wait_time" value="180.0"/>
+    <param name="wait_time" value="20.0"/>
     <param name="hzerror" value="20.0"/>
     <param name="topic" value="/sandia_hands/r_hand/joint_states"/>
     <param name="test_duration" value="10.0"/>
@@ -43,7 +43,7 @@
 
   <test pkg="rostest" time-limit="240.0" type="hztest" test-name="atlas_hztest_sandia_hands_r_hand_imu">
     <param name="hz" value="1000.0"/>
-    <param name="wait_time" value="180.0"/>
+    <param name="wait_time" value="20.0"/>
     <param name="hzerror" value="20.0"/>
     <param name="topic" value="/sandia_hands/r_hand/imu"/>
     <param name="test_duration" value="10.0"/>
@@ -52,7 +52,7 @@
 <!-- Not yet implemented
   <test pkg="rostest" time-limit="240.0" type="hztest" test-name="atlas_hztest_sandia_hands_r_hand_tacile_raw">
     <param name="hz" value="1000.0"/>
-    <param name="wait_time" value="180.0"/>
+    <param name="wait_time" value="20.0"/>
     <param name="hzerror" value="20.0"/>
     <param name="topic" value="/sandia_hands/r_hand/tactile_raw"/>
     <param name="test_duration" value="10.0"/>
