@@ -240,8 +240,8 @@
           </geometry>
           <material>
           <script>
-            <uri>model://mud_atlas/materials/scripts</uri>
-            <uri>model://mud_atlas/materials/textures</uri>
+            <uri>model://mud_box/materials/scripts</uri>
+            <uri>model://mud_box/materials/textures</uri>
             <name>vrc/mud_bottom</name>
           </script>
           </material>
@@ -590,7 +590,7 @@
     </plugin>
 
     <plugin filename="libVRCScoringPlugin.so" name="vrc_scoring">
-      <score_file>/tmp/vrc_final_task5/score.log</score_file>
+      <score_file>/tmp/vrc_final_task6/score.log</score_file>
     </plugin>
 
   </world>

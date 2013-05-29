@@ -9,5 +9,5 @@
   <param name="/gzstop_checker/results_postfix" value="vrc_final_task3_gzlog_stop_30min" /> 
   <test pkg="atlas_utils" type="gzlog_stop_checker.py" 
         test-name="vrc_task_3_gzlog_stop_longrun" 
-        time-limit="3600" />
+        time-limit="5400" />
 </launch>
