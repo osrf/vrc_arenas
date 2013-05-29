@@ -64,6 +64,120 @@
     </light>
 
     <include>
+      <uri>model://grey_wall</uri>
+      <name>grey_wall_1</name>
+      <pose>169 92.2 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <name>grey_wall_2</name>
+      <pose>141 57 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <name>grey_wall_3</name>
+      <pose>134 57 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <name>grey_wall_4</name>
+      <pose>126.485802 57 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <name>grey_wall_5</name>
+      <pose>122.701843 60.652161 0 0 0 1.570796</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <name>grey_wall_6</name>
+      <pose>122.696983 122.696983 0 0 0 1.570796</pose>
+    </include>
+    <include>
+      <uri>model://dumpster</uri>
+      <name>dumpster_0</name>
+      <static>true</static>
+      <pose>168.8 93.77 0 0 0 3.1415</pose>
+    </include>
+    <include>
+      <uri>model://construction_barrel</uri>
+      <static>true</static>
+      <name>barrel_a</name>
+      <pose>178.86 83.54 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://construction_barrel</uri>
+      <static>true</static>
+      <name>barrel_b</name>
+      <pose>178.78 80.47 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://house_2</uri>
+      <name>house_2_d</name>
+      <pose>184.46 108.4 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://house_2</uri>
+      <name>house_2_e</name>
+      <pose>117.273575 29.190319 0 0 0 0.84</pose>
+    </include>
+    <include>
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier_1</name>
+      <pose>158 106 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier_2</name>
+      <pose>151 106 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier_3</name>
+      <pose>145 99 0 0 0 1.57079</pose>
+    </include>
+    <include>
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier_4</name>
+      <pose>145 92 0 0 0 1.57079</pose>
+    </include>
+    <include>
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier_5</name>
+      <pose>43 7 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier_6</name>
+      <pose>36 7 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier_7</name>
+      <pose>29 7 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier_8</name>
+      <pose>22 7 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://house_1</uri>
+      <name>house_1_c</name>
+      <pose>158.761292 76.185196 0 0 0 1.570796</pose>
+    </include>
+    <include>
+      <uri>model://house_1</uri>
+      <name>house_1_d</name>
+      <pose>182.012589 89.795654 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://house_1</uri>
+      <name>house_1_e</name>
+      <pose>66.450668 18.963938 0 0 0 0</pose>
+    </include>
+
+    <include>
       <uri>model://vrc_heightmap_1</uri>
     </include>
 
@@ -243,7 +357,7 @@
     <include>
       <uri>model://house_3</uri>
       <name>house_3_b</name>
-      <pose>111 26 0 0 0 .78539</pose>
+      <pose> 104.780273 18.443701 0 0 0 .78539</pose>
     </include>
     <include>
       <uri>model://house_3</uri>
