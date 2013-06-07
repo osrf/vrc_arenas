@@ -320,7 +320,7 @@
     <include>
       <uri>model://cinder_block</uri>
       <name>cinder_block</name>
-      <pose>7.999994 13.571938 0.017117 1.569996 0 1.0</pose>
+      <pose>7.999994 14.271938 0.119138 1.569996 0 1.0</pose>
     </include>
     <include>
       <uri>model://cinder_block</uri>
