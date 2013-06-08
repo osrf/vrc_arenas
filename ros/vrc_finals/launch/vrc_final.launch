@@ -14,10 +14,6 @@
     <arg name="extra_gazebo_args" value="-r --record_encoding=zlib --record_path=/tmp/$(arg gzworld)"/>
   </include>
 
-  <node name="$(anon rosbag)" pkg="rosbag" type="record"
-        args="/tf /atlas/atlas_state /atlas/atlas_sim_interface_state /atlas/synchronization_statistics /atlas/controller_statistics /sandia_hands/l_hand/joint_states /sandia_hands/r_hand/joint_states -O /tmp/$(arg gzworld)/topics -j"/>
-
-
   <!-- to trigger synchronization delay, set
        atlas_msgs::AtlasCommand::desired_controller_period_ms to non-zero -->
   <param name="/atlas/delay_window_size" type="double" value="5.0"/>
