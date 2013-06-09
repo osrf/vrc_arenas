@@ -5,6 +5,7 @@
 
     <link name="coupling">
       <inertial>
+        <pose>-0.07 0 0.0 0 0 0</pose>
         <mass>0.1</mass>
         <inertia>
           <ixx>0.01</ixx>
@@ -23,6 +24,14 @@
             <uri>model://vrc_firehose_long/meshes/coupling_hexagon.dae</uri>
           </mesh>
         </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="coupling_vis">
         <pose>-0.01 0 0 0 -1.570790 0</pose>
@@ -44,10 +53,15 @@
       <visual name="attachment_vis">
         <pose>-0.1225 0 0 0 -1.570790 0</pose>
         <geometry>
+          <mesh>
+            <uri>model://vrc_firehose_long/meshes/connector.dae</uri>
+          </mesh>
+          <!--
           <cylinder>
             <length>0.025</length>
             <radius>0.055</radius>
           </cylinder>
+-->
         </geometry>
         <material>
           <diffuse>1 0 0 1</diffuse>
@@ -62,6 +76,17 @@
             <radius>0.055</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
     </link>
 
@@ -120,6 +145,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -162,6 +198,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -211,6 +258,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -260,6 +318,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -309,6 +378,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -358,6 +438,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.0875 0 0 0 1.570790 0</pose>
@@ -407,6 +498,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.0875 0 0 0 1.570790 0</pose>
@@ -456,6 +558,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -505,6 +618,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -554,6 +678,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -603,6 +738,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -652,6 +798,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -701,6 +858,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.0875 0 0 0 1.570790 0</pose>
@@ -750,6 +918,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.0875 0 0 0 1.570790 0</pose>
@@ -799,6 +978,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -848,6 +1038,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -897,6 +1098,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -946,6 +1158,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -995,6 +1218,17 @@
             <radius>0.025</radius>
           </cylinder>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="visual">
         <pose>0.1 0 0 0 1.570790 0</pose>
@@ -1041,6 +1275,17 @@
             <uri>model://vrc_firehose_long/meshes/nozzle.stl</uri>
           </mesh>
         </geometry>
+        <surface>
+          <contact><ode>
+            <min_depth>0.005</min_depth>
+          </ode></contact>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
       </collision>
       <visual name="nozzle_vis">
         <geometry>
