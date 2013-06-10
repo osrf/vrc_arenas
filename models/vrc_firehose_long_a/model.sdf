@@ -704,6 +704,13 @@
             <radius>0.025</radius>
           </sphere>
         </geometry>
+        <material>
+          <script>
+            <uri>model://vrc_firehose_long_a/materials/scripts</uri>
+            <uri>model://vrc_firehose_long_a/materials/textures</uri>
+            <name>vrc/firehose_canvas_a</name>
+          </script>
+        </material>
       </visual>
     </link>
 
