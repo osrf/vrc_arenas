@@ -1,5 +1,5 @@
 set (files 
-  canvas.jpg
+  canvas_a.jpg
   coupling_hexagon.png
 )
 

@@ -11,7 +11,7 @@ material vrc/firehose_canvas_a
 
 			texture_unit
 			{
-				texture canvas.jpg
+				texture canvas_a.jpg
 				filtering trilinear
         scale 1.00 1.00
 			}
