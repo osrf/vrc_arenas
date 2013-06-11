@@ -1363,6 +1363,24 @@
           </script>
         </material>
       </visual>
+      <visual name='visual_79a'>
+        <pose>-40 140 0 0 0 0</pose>
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>20 20</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://grass_plane/materials/scripts</uri>
+            <uri>model://grass_plane/materials/textures</uri>
+            <name>vrc/grass</name>
+          </script>
+        </material>
+      </visual>
+
       <visual name='visual_80'>
         <pose>-40 20 0 0 0 0</pose>
         <cast_shadows>false</cast_shadows>
