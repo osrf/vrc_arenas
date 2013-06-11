@@ -63,6 +63,25 @@
       </attenuation>
     </light>
 
+    <include> 
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier_1</name>
+      <pose>-30.782961 12.987309 0 0 0 -0.160001</pose>
+    </include>
+
+    <include>
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier_2</name>
+      <pose>-36.741665 14.062513 0 0 0 -0.160001</pose>
+    </include>
+
+    <include>
+      <uri>model://jersey_barrier</uri>
+      <name>jersey_barrier_3</name>
+      <pose>-42.801369 15.140183 0 0 0 -0.160001</pose>
+    </include>
+
+
     <include>
       <uri>model://vrc_heightmap_3</uri>
     </include>
@@ -159,6 +178,30 @@
 
     <include>
       <uri>model://construction_barrel</uri>
+      <name>barrel_4</name>
+      <pose>-86.547622 91.001313 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://construction_barrel</uri>
+      <name>barrel_5</name>
+      <pose>-82.999822 91.434153 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://construction_barrel</uri>
+      <name>barrel_6</name>
+      <pose>-79.454335 92.000720 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://construction_barrel</uri>
+      <name>barrel_7</name>
+      <pose>-75.552145 93.463218 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://construction_barrel</uri>
       <name>barrel_1</name>
       <pose>-30 7.35 0 0 0 0</pose>
     </include>
@@ -187,6 +230,37 @@
     <include>
       <uri>model://house_3</uri>
       <pose>-50.21 18.51 0 0 0 -0.64</pose>
+    </include>
+
+    <include>
+      <uri>model://house_3</uri>
+      <name>house_3_d</name>
+      <pose>-75.475288 40.420681 0 0 0 -0.680000</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <name>grey_wall_1</name>
+      <pose>-88.124184 49.661770 0 0 0 -0.640001</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <name>grey_wall_2</name>
+      <pose>-81.410600 47.454800 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <name>grey_wall_3</name>
+      <pose>-71 54 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <name>grey_wall_4</name>
+      <pose>-92.787971 90.169884 0 0 0 0.16</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <name>grey_wall_5</name>
+      <pose>-89.445953 94.466454 0 0 0 1.640001</pose>
     </include>
 
     <include>
@@ -273,6 +347,13 @@
       <static>true</static>
       <pose>-95.63 95.46 0 0 0 0</pose>
     </include>
+    <include>
+      <uri>model://dumpster</uri>
+      <static>true</static>
+      <name>dumpster_1</name>
+      <pose>-89 48 0 0 0 0</pose>
+    </include>
+
 
     <include>
       <uri>model://lamp_post</uri>
@@ -285,7 +366,7 @@
       <uri>model://lamp_post</uri>
       <name>lamp_post_17</name>
       <static>true</static>
-      <pose>-89.49 98.23 0 0 0 -2.87</pose>
+      <pose>-82.204697 100.420967 0 0 0 -2.87</pose>
     </include>
 
     <include>
