@@ -1461,7 +1461,6 @@
       </physics>
     </joint>
 
-    <!--
     <joint name="joint_01" type="universal">
       <child>link_01</child>
       <parent>link_00</parent>
@@ -1491,7 +1490,6 @@
         </ode>
       </physics>
     </joint>
-    -->
 
     <joint name="joint_02" type="universal">
       <child>link_02</child>
@@ -2063,7 +2061,6 @@
       </physics>
     </joint>
 
-    <!--
     <joint name="world" type="universal">
       <child>nozzle</child>
       <parent>world</parent>
@@ -2093,7 +2090,6 @@
         </ode>
       </physics>
     </joint>
-  -->
 
   </model>
 </sdf>
