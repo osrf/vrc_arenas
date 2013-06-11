@@ -204,19 +204,19 @@
     </include>
 
     <include>
-      <uri>model://construction_cone</uri>
+      <uri>model://construction_barrel</uri>
       <name>barrel_4</name>
       <pose>106.51 10 0 0 0 0</pose>
     </include>
 
     <include>
-      <uri>model://construction_cone</uri>
+      <uri>model://construction_barrel</uri>
       <name>barrel_5</name>
       <pose>127 24 0 0 0 0</pose>
     </include>
 
     <include>
-      <uri>model://construction_cone</uri>
+      <uri>model://construction_barrel</uri>
       <name>barrel_6</name>
       <pose>153 97 0 0 0 0</pose>
     </include>
