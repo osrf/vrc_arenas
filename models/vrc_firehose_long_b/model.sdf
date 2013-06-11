@@ -64,8 +64,11 @@
 -->
         </geometry>
         <material>
-          <diffuse>1 0 0 1</diffuse>
-          <ambient>1 .5 .5 1</ambient>
+          <script>
+            <uri>model://vrc_firehose_long/materials/scripts</uri>
+            <uri>model://vrc_firehose_long/materials/textures</uri>
+            <name>vrc/firehose_red_coupling</name>
+          </script>
         </material>
       </visual>
       <collision name="attachment_col">
