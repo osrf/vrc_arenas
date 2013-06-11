@@ -49,7 +49,7 @@
         <geometry>
           <mesh>
             <uri>model://vrc_standpipe/meshes/vrc_standpipe.dae</uri>
-            <scale>1.1 1.1 1.1</scale>
+            <scale>1.1 1.1 1</scale>
           </mesh>
         </geometry>
         <surface>
