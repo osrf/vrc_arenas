@@ -55,6 +55,7 @@
         <geometry>
           <mesh>
             <uri>model://vrc_firehose_long/meshes/connector.dae</uri>
+            <scale>1.1 1.1 1</scale>
           </mesh>
           <!--
           <cylinder>
